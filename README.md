@@ -3,8 +3,8 @@
 > Wall art built different. Premium glossy-finish wall tapestries & streetwear flags with reinforced corner loops for damage-free hanging.
 
 ## Current Collection & Pricing
-- **Honestly Nevermind Flag (Drake Edition)** — ₹2,099 (Chrome drip typography, 45×35")
-- **Take Care Flag (Drake Edition)** — ₹2,099 (Vintage candlelight & owl artwork, 45×35")
+- **Honestly Nevermind Flag ** — ₹2,099 (Chrome drip typography, 45×35")
+- **Take Care Flag ** — ₹2,099 (Vintage candlelight & owl artwork, 45×35")
 - **Absolut Vodka Flag (Original Vodka Edition)** — ₹2,099 (Crisp whites & deep contrast, 45×35")
 - **Karan Aujla "Four You" Tapestry** — ₹1,999 (**SOLD OUT** — Restock in progress)
 
@@ -20,17 +20,17 @@
 ## Project Structure
 ```text
 .
-├── index.html           # Main storefront HTML/CSS/JS
-├── images/              # High-resolution flag mockups, lifestyle photography & logo
-│   ├── godsplan-room.png
-│   ├── godsplan-flat.png
-│   ├── takecare-room.png
-│   ├── takecare-flat.jpg
-│   ├── vodka-room.png
-│   ├── vodka-flat.png
-│   ├── logo.png
-│   └── ...
-├── fonts/               # Neue Haas Grotesk .woff2 typeface files
+├── index.html      # Main storefront HTML/CSS/JS
+├── images/       # High-resolution flag mockups, lifestyle photography & logo
+│  ├── godsplan-room.png
+│  ├── godsplan-flat.png
+│  ├── takecare-room.png
+│  ├── takecare-flat.jpg
+│  ├── vodka-room.png
+│  ├── vodka-flat.png
+│  ├── logo.png
+│  └── ...
+├── fonts/        # Neue Haas Grotesk .woff2 typeface files
 ├── .gitignore
 └── README.md
 ```
