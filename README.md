@@ -9,7 +9,7 @@
 - **Karan Aujla "Four You" Tapestry** — ₹1,999 (**SOLD OUT** — Restock in progress)
 
 ## Key Features
-- **Theme & Vibe:** Streetwear editorial design inspired by Crib Control and Bluorng.
+- **Theme & Vibe:** Minimalist Swiss streetwear editorial design with authentic Neue Haas Grotesk typography.
 - **Typography:** Authentic **Neue Haas Grotesk** Display & Text (served locally with zero external latency).
 - **Dual Mode:** Full automatic system theme adaptation (`prefers-color-scheme`) with interactive Sun/Moon toggle.
 - **Continuous Marquee Ticker:** High-impact warning banner continuously sliding right-to-left.

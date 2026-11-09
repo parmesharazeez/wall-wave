@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>WALLWAVE — FLAGS COLLECTION // Streetwear Tapestries &amp; Flags</title>
-  <meta name="description" content="WALLWAVE Flags Collection. Wall art built different. Premium glossy-finish wall tapestries featuring Drake's God's Plan, Take Care, and Absolut Vodka. 45x35 inches with reinforced zero-damage corner loops.">
+  <title>WALLWAVE — Drop 01 // Premium Glossy Wall Flags</title>
+  <meta name="description" content="WALLWAVE Drop 01. Premium 45x35 inch glossy wall flags with reinforced zero-damage corner loops. God's Plan, Take Care, and Absolut Vodka.">
   <link rel="icon" type="image/png" href="images/logo.png">
 
   <!-- OpenGraph -->
-  <meta property="og:title" content="WALLWAVE — FLAGS COLLECTION">
-  <meta property="og:description" content="Premium glossy wall flags built different. High-shine fabric, zero-damage corner loops. God's Plan, Take Care, Absolut Vodka.">
+  <meta property="og:title" content="WALLWAVE — Drop 01 // Wall Flags">
+  <meta property="og:description" content="Premium glossy wall flags. High-shine fabric, reinforced corner loops. God's Plan, Take Care, Absolut Vodka.">
   <meta property="og:image" content="images/godsplan-room.png">
   <meta property="og:type" content="website">
 
   <style>
     /* ==========================================================================
-       1. GENUINE NEUE HAAS GROTESK FONT STACK (LOCALLY SERVED)
+       1. TYPOGRAPHY: GENUINE NEUE HAAS GROTESK (LOCALLY HOSTED)
        ========================================================================== */
     @font-face {
       font-family: 'Neue Haas Grotesk Display';
@@ -68,96 +68,84 @@
     }
 
     /* ==========================================================================
-       2. DESIGN SYSTEM & DUAL THEME ENGINE (DARK & LIGHT)
+       2. REFINED MINIMALIST DESIGN SYSTEM & DUAL THEME ENGINE
        ========================================================================== */
     :root {
       --font-display: 'Neue Haas Grotesk Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       --font-text: 'Neue Haas Grotesk Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      --font-mono: 'SF Mono', Menlo, Consolas, Monaco, monospace;
 
-      --brand-orange: #ff4d00;
-      --brand-blue: #1937ff;
-      --whatsapp-green: #25d366;
-      --whatsapp-hover: #20ba5a;
-      --gold-accent: #e5b352;
+      --accent-orange: #ff4d00;
+      --accent-blue: #1937ff;
+      --wa-green: #25d366;
+      --wa-hover: #1fba57;
       --sold-out-red: #ff334b;
 
-      /* Dark Theme (Default) */
-      --bg: #000000;
-      --bg-surface: #0a0a0a;
-      --bg-card: #121212;
-      --bg-card-hover: #181818;
-      --bg-badge: rgba(255, 255, 255, 0.08);
+      /* Dark Mode (Default) */
+      --bg: #090909;
+      --bg-surface: #111111;
+      --bg-card: #141414;
+      --bg-card-hover: #1a1a1a;
       --text: #ffffff;
-      --text-muted: #a0a0a0;
-      --text-dim: #606060;
-      --border: rgba(255, 255, 255, 0.12);
-      --border-hover: rgba(255, 255, 255, 0.32);
-      --header-bg: rgba(0, 0, 0, 0.88);
-      --ticker-bg: #080808;
-      --ticker-text: #ffffff;
-      --card-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+      --text-muted: #9e9e9e;
+      --text-dim: #5c5c5c;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 255, 255, 0.22);
+      --header-bg: rgba(9, 9, 9, 0.85);
+      --ticker-bg: #000000;
       --pill-bg: #1c1c1c;
-      --pill-border: rgba(255, 255, 255, 0.15);
       --btn-primary-bg: #ffffff;
       --btn-primary-text: #000000;
-      --btn-secondary-bg: #181818;
-      --btn-secondary-text: #ffffff;
-      --modal-overlay: rgba(0, 0, 0, 0.82);
+      --btn-ghost-border: rgba(255, 255, 255, 0.16);
+      --card-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+      --modal-bg: #121212;
+      --modal-overlay: rgba(0, 0, 0, 0.85);
     }
 
     [data-theme="light"] {
-      --bg: #f8f8f9;
+      --bg: #fbfbfb;
       --bg-surface: #ffffff;
       --bg-card: #ffffff;
-      --bg-card-hover: #f3f3f5;
-      --bg-badge: rgba(0, 0, 0, 0.06);
-      --text: #050505;
+      --bg-card-hover: #f5f5f7;
+      --text: #0a0a0a;
       --text-muted: #555555;
-      --text-dim: #888888;
-      --border: rgba(0, 0, 0, 0.1);
-      --border-hover: rgba(0, 0, 0, 0.28);
-      --header-bg: rgba(248, 248, 249, 0.9);
-      --ticker-bg: #050505;
-      --ticker-text: #ffffff;
-      --card-shadow: 0 12px 36px rgba(0, 0, 0, 0.06);
-      --pill-bg: #ececee;
-      --pill-border: rgba(0, 0, 0, 0.12);
-      --btn-primary-bg: #000000;
+      --text-dim: #8e8e8e;
+      --border: rgba(0, 0, 0, 0.08);
+      --border-hover: rgba(0, 0, 0, 0.22);
+      --header-bg: rgba(251, 251, 251, 0.88);
+      --ticker-bg: #0a0a0a;
+      --pill-bg: #efefef;
+      --btn-primary-bg: #0a0a0a;
       --btn-primary-text: #ffffff;
-      --btn-secondary-bg: #eaeaea;
-      --btn-secondary-text: #050505;
+      --btn-ghost-border: rgba(0, 0, 0, 0.15);
+      --card-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+      --modal-bg: #ffffff;
       --modal-overlay: rgba(0, 0, 0, 0.65);
     }
 
     @media (prefers-color-scheme: light) {
       :root:not([data-theme="dark"]) {
-        --bg: #f8f8f9;
+        --bg: #fbfbfb;
         --bg-surface: #ffffff;
         --bg-card: #ffffff;
-        --bg-card-hover: #f3f3f5;
-        --bg-badge: rgba(0, 0, 0, 0.06);
-        --text: #050505;
+        --bg-card-hover: #f5f5f7;
+        --text: #0a0a0a;
         --text-muted: #555555;
-        --text-dim: #888888;
-        --border: rgba(0, 0, 0, 0.1);
-        --border-hover: rgba(0, 0, 0, 0.28);
-        --header-bg: rgba(248, 248, 249, 0.9);
-        --ticker-bg: #050505;
-        --ticker-text: #ffffff;
-        --card-shadow: 0 12px 36px rgba(0, 0, 0, 0.06);
-        --pill-bg: #ececee;
-        --pill-border: rgba(0, 0, 0, 0.12);
-        --btn-primary-bg: #000000;
+        --text-dim: #8e8e8e;
+        --border: rgba(0, 0, 0, 0.08);
+        --border-hover: rgba(0, 0, 0, 0.22);
+        --header-bg: rgba(251, 251, 251, 0.88);
+        --ticker-bg: #0a0a0a;
+        --pill-bg: #efefef;
+        --btn-primary-bg: #0a0a0a;
         --btn-primary-text: #ffffff;
-        --btn-secondary-bg: #eaeaea;
-        --btn-secondary-text: #050505;
+        --btn-ghost-border: rgba(0, 0, 0, 0.15);
+        --card-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+        --modal-bg: #ffffff;
+        --modal-overlay: rgba(0, 0, 0, 0.65);
       }
     }
 
-    /* ==========================================================================
-       3. GLOBAL RESET & BASE STYLES
-       ========================================================================== */
+    /* Reset */
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -176,7 +164,7 @@
       font-family: var(--font-text);
       font-size: 15px;
       line-height: 1.6;
-      transition: background-color 0.35s ease, color 0.35s ease;
+      transition: background-color 0.3s ease, color 0.3s ease;
       overflow-x: hidden;
     }
 
@@ -201,7 +189,7 @@
 
     .container {
       width: 100%;
-      max-width: 1400px;
+      max-width: 1320px;
       margin: 0 auto;
       padding: 0 24px;
     }
@@ -213,296 +201,207 @@
     }
 
     /* ==========================================================================
-       4. CONTINUOUS RIGHT-TO-LEFT WARNING TICKER (CRIB-CTRL VIBE)
+       3. ELEGANT TICKER (LOW COGNITIVE LOAD)
        ========================================================================== */
-    .top-ticker-bar {
+    .announcement-bar {
       background: var(--ticker-bg);
-      color: var(--ticker-text);
+      color: #ffffff;
       font-family: var(--font-display);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.14em;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
-      padding: 10px 0;
+      padding: 9px 0;
       overflow: hidden;
       white-space: nowrap;
-      position: relative;
       border-bottom: 1px solid var(--border);
-      z-index: 1001;
     }
 
-    .ticker-track {
+    .ticker-loop {
       display: inline-flex;
       white-space: nowrap;
-      animation: tickerRTL 28s linear infinite;
+      animation: smoothTicker 30s linear infinite;
     }
 
-    .top-ticker-bar:hover .ticker-track {
+    .announcement-bar:hover .ticker-loop {
       animation-play-state: paused;
     }
 
-    .ticker-item {
+    .ticker-node {
       display: inline-flex;
       align-items: center;
       gap: 16px;
-      padding: 0 24px;
+      padding: 0 28px;
     }
 
-    .ticker-dot {
-      display: inline-block;
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--brand-orange);
-      box-shadow: 0 0 10px var(--brand-orange);
+    .ticker-node .accent-mark {
+      color: var(--accent-orange);
     }
 
-    .ticker-item strong {
-      color: var(--brand-orange);
-    }
-
-    @keyframes tickerRTL {
+    @keyframes smoothTicker {
       0% { transform: translateX(0%); }
       100% { transform: translateX(-50%); }
     }
 
     /* ==========================================================================
-       5. STICKY HEADER & NAVIGATION
+       4. MINIMAL HEADER
        ========================================================================== */
     .site-header {
       position: sticky;
       top: 0;
       z-index: 1000;
       background: var(--header-bg);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
-      transition: background 0.3s ease, border-color 0.3s ease;
+      transition: background 0.3s ease;
     }
 
     .header-inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 74px;
+      height: 70px;
     }
 
-    .brand-logo-wrap {
+    .brand-wrap {
       display: flex;
       align-items: center;
       gap: 12px;
-      font-family: var(--font-display);
-      font-size: 21px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
     }
 
     .brand-logo-img {
-      height: 38px;
+      height: 34px;
       width: auto;
       object-fit: contain;
-      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
     }
 
-    [data-theme="light"] .brand-logo-img {
-      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
-    }
-
-    .brand-badge {
-      font-size: 10px;
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 20px;
       font-weight: 700;
-      padding: 2px 7px;
-      border-radius: 4px;
-      background: var(--brand-orange);
-      color: #ffffff;
-      letter-spacing: 0.08em;
-      margin-left: 4px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
     }
 
-    .nav-links {
+    .nav-menu {
       display: flex;
       align-items: center;
-      gap: 28px;
+      gap: 32px;
       list-style: none;
     }
 
-    .nav-links a {
+    .nav-menu a {
       font-family: var(--font-display);
       font-size: 13px;
       font-weight: 600;
-      text-transform: uppercase;
       letter-spacing: 0.12em;
+      text-transform: uppercase;
       color: var(--text-muted);
-      position: relative;
-      transition: color 0.25s ease;
-      padding: 6px 0;
+      transition: color 0.2s ease;
     }
 
-    .nav-links a:hover,
-    .nav-links a.active {
+    .nav-menu a:hover {
       color: var(--text);
     }
 
-    .nav-links a::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0%;
-      height: 2px;
-      background: var(--brand-orange);
-      transition: width 0.25s ease;
-    }
-
-    .nav-links a:hover::after {
-      width: 100%;
-    }
-
-    .header-actions {
+    .header-ctrls {
       display: flex;
       align-items: center;
       gap: 14px;
     }
 
-    .theme-toggle-btn {
-      width: 40px;
-      height: 40px;
+    .theme-btn {
+      width: 38px;
+      height: 38px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       background: var(--pill-bg);
-      border: 1px solid var(--pill-border);
+      border: 1px solid var(--border);
       color: var(--text);
-      transition: transform 0.2s ease, border-color 0.2s ease;
+      transition: transform 0.2s ease;
     }
 
-    .theme-toggle-btn:hover {
-      transform: scale(1.06);
-      border-color: var(--border-hover);
+    .theme-btn:hover {
+      transform: scale(1.05);
     }
 
-    .theme-toggle-btn svg {
-      width: 18px;
-      height: 18px;
+    .theme-btn svg {
+      width: 17px;
+      height: 17px;
       fill: currentColor;
     }
 
-    .header-wa-btn {
+    .header-wa-pill {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 9px 18px;
+      padding: 8px 18px;
       border-radius: 999px;
-      background: var(--whatsapp-green);
+      background: var(--wa-green);
       color: #ffffff;
       font-family: var(--font-display);
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+      transition: transform 0.2s ease, background 0.2s ease;
     }
 
-    .header-wa-btn:hover {
-      background: var(--whatsapp-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+    .header-wa-pill:hover {
+      background: var(--wa-hover);
+      transform: translateY(-1px);
     }
 
-    @media (max-width: 900px) {
-      .nav-links {
+    @media (max-width: 860px) {
+      .nav-menu {
         display: none;
       }
     }
 
     /* ==========================================================================
-       6. HERO SECTION — CRIBCONTROL × STREETWEAR DROP VIBE
+       5. AESTHETIC HERO (CALM, EDITORIAL, SPACIOUS)
        ========================================================================== */
-    .hero-section {
-      padding: 60px 0 40px;
-      position: relative;
-      border-bottom: 1px solid var(--border);
-      overflow: hidden;
-    }
-
-    .hero-glow {
-      position: absolute;
-      top: -120px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 800px;
-      height: 400px;
-      background: radial-gradient(ellipse at center, rgba(255, 77, 0, 0.12) 0%, rgba(25, 55, 255, 0.06) 50%, transparent 70%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
+    .hero {
+      padding: 80px 0 60px;
       text-align: center;
-      max-width: 960px;
-      margin: 0 auto;
+      position: relative;
     }
 
-    .hero-eyebrow-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 16px;
-      border-radius: 999px;
-      background: var(--pill-bg);
-      border: 1px solid var(--pill-border);
+    .hero-tag {
+      display: inline-block;
       font-family: var(--font-display);
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 22px;
-    }
-
-    .hero-eyebrow-pill .pulse-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--brand-orange);
-      box-shadow: 0 0 8px var(--brand-orange);
-      animation: pulse 1.8s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.85); }
+      color: var(--accent-orange);
+      margin-bottom: 16px;
     }
 
     .hero-title {
       font-family: var(--font-display);
-      font-size: clamp(40px, 6vw, 76px);
+      font-size: clamp(38px, 5.5vw, 68px);
       font-weight: 700;
-      line-height: 1.05;
-      letter-spacing: -0.03em;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      max-width: 900px;
+      margin: 0 auto 20px;
     }
 
-    .hero-title .highlight-orange {
-      color: var(--brand-orange);
-    }
-
-    .hero-subtitle {
-      font-size: clamp(16px, 2vw, 19px);
+    .hero-desc {
+      font-size: clamp(16px, 1.8vw, 18px);
       line-height: 1.6;
       color: var(--text-muted);
-      max-width: 780px;
-      margin: 0 auto 32px;
+      max-width: 640px;
+      margin: 0 auto 36px;
     }
 
-    .hero-chips-row {
-      display: flex;
+    .hero-features-bar {
+      display: inline-flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
@@ -510,199 +409,133 @@
       margin-bottom: 36px;
     }
 
-    .hero-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
+    .hero-feat-chip {
       padding: 6px 14px;
       border-radius: 8px;
       background: var(--bg-surface);
       border: 1px solid var(--border);
       font-family: var(--font-display);
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
+      color: var(--text-muted);
     }
 
-    .hero-actions-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-    }
-
-    .btn-main-cta {
+    .hero-cta-btn {
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      padding: 16px 36px;
+      padding: 15px 34px;
       border-radius: 999px;
       background: var(--btn-primary-bg);
       color: var(--btn-primary-text);
       font-family: var(--font-display);
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
-    .btn-main-cta:hover {
+    .hero-cta-btn:hover {
       transform: translateY(-2px);
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-    }
-
-    .btn-ghost-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 16px 30px;
-      border-radius: 999px;
-      background: transparent;
-      border: 1px solid var(--border-hover);
-      color: var(--text);
-      font-family: var(--font-display);
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      transition: background 0.25s ease, border-color 0.25s ease;
-    }
-
-    .btn-ghost-cta:hover {
-      background: var(--bg-badge);
-      border-color: var(--text);
+      opacity: 0.92;
     }
 
     /* ==========================================================================
-       7. COLLECTION FILTER & CATALOG GRID (ONLY THE 4 SPECIFIED FLAGS)
+       6. THE DROPS CATALOG (CLEAN 4-PRODUCT STREETWEAR GRID)
        ========================================================================== */
-    .catalog-section {
-      padding: 70px 0 90px;
-      border-bottom: 1px solid var(--border);
+    .drops-section {
+      padding: 40px 0 90px;
+      border-top: 1px solid var(--border);
     }
 
-    .catalog-header {
+    .section-head {
+      margin-bottom: 40px;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-bottom: 48px;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
     }
 
     .section-eyebrow {
       font-family: var(--font-display);
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.16em;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
-      color: var(--brand-orange);
-      margin-bottom: 10px;
+      color: var(--text-dim);
+      margin-bottom: 8px;
     }
 
-    .section-title {
+    .section-heading {
       font-family: var(--font-display);
-      font-size: clamp(32px, 4vw, 48px);
+      font-size: clamp(28px, 3.5vw, 40px);
       font-weight: 700;
       letter-spacing: -0.02em;
       text-transform: uppercase;
-      margin-bottom: 14px;
     }
 
-    .section-desc {
-      font-size: 16px;
-      color: var(--text-muted);
-      max-width: 640px;
-    }
-
-    /* Filter Chips */
-    .filter-tabs-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 28px;
-    }
-
-    .filter-tab {
-      padding: 9px 20px;
-      border-radius: 999px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
+    .section-counter {
       font-family: var(--font-display);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--text-muted);
-      transition: all 0.25s ease;
+      color: var(--text-dim);
     }
 
-    .filter-tab:hover {
-      color: var(--text);
-      border-color: var(--border-hover);
-    }
-
-    .filter-tab.active {
-      background: var(--text);
-      color: var(--bg);
-      border-color: var(--text);
-    }
-
-    /* The 4-Product Grid */
-    .catalog-grid {
+    /* 4-Item Grid */
+    .drops-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 28px;
-      margin-top: 40px;
+      gap: 26px;
     }
 
-    @media (max-width: 1200px) {
-      .catalog-grid {
+    @media (max-width: 1150px) {
+      .drops-grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
 
-    @media (max-width: 640px) {
-      .catalog-grid {
+    @media (max-width: 600px) {
+      .drops-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 32px;
       }
     }
 
-    /* Product Card */
-    .product-card {
+    /* Drop Card */
+    .drop-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 16px;
+      border-radius: 14px;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      position: relative;
       transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-      cursor: pointer;
+      position: relative;
     }
 
-    .product-card:hover {
-      transform: translateY(-6px);
+    .drop-card:hover {
+      transform: translateY(-4px);
       border-color: var(--border-hover);
       box-shadow: var(--card-shadow);
     }
 
-    .card-media-wrapper {
+    .drop-media-box {
       position: relative;
       width: 100%;
       aspect-ratio: 4 / 5;
       overflow: hidden;
-      background: #0d0d0d;
+      background: #000000;
+      cursor: pointer;
     }
 
-    .card-img-primary,
-    .card-img-hover {
+    .drop-img-main,
+    .drop-img-alt {
       position: absolute;
       top: 0;
       left: 0;
@@ -712,34 +545,23 @@
       transition: opacity 0.4s ease, transform 0.5s ease;
     }
 
-    .card-img-hover {
+    .drop-img-alt {
       opacity: 0;
     }
 
-    .product-card:hover .card-img-hover {
+    .drop-card:hover .drop-img-alt {
       opacity: 1;
-      transform: scale(1.04);
+      transform: scale(1.03);
     }
 
-    .product-card:hover .card-img-primary {
+    .drop-card:hover .drop-img-main {
       opacity: 0;
     }
 
-    /* Card Badges */
-    .card-badge-top-left {
+    .drop-badge-tag {
       position: absolute;
-      top: 14px;
-      left: 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      z-index: 2;
-    }
-
-    .badge-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
+      top: 12px;
+      left: 12px;
       padding: 4px 10px;
       border-radius: 6px;
       font-family: var(--font-display);
@@ -747,83 +569,42 @@
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
+      background: rgba(0, 0, 0, 0.75);
       backdrop-filter: blur(8px);
-    }
-
-    .badge-pill.new-drop {
-      background: rgba(255, 77, 0, 0.9);
       color: #ffffff;
-    }
-
-    .badge-pill.classic {
-      background: rgba(25, 55, 255, 0.88);
-      color: #ffffff;
-    }
-
-    .badge-pill.minimal {
-      background: rgba(0, 0, 0, 0.8);
-      color: #ffffff;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .badge-pill.sold-out {
-      background: var(--sold-out-red);
-      color: #ffffff;
-    }
-
-    .card-badge-top-right {
-      position: absolute;
-      top: 14px;
-      right: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
       z-index: 2;
     }
 
-    .badge-discount {
-      padding: 4px 9px;
-      border-radius: 6px;
-      background: #ffffff;
-      color: #000000;
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.04em;
+    .drop-badge-tag.sold-out {
+      background: var(--sold-out-red);
+      border: none;
     }
 
-    /* Card Details */
-    .card-info-body {
+    .drop-info {
       padding: 20px;
       display: flex;
       flex-direction: column;
       flex-grow: 1;
     }
 
-    .card-category-tag {
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--brand-orange);
-      margin-bottom: 6px;
-    }
-
-    .card-title {
+    .drop-title {
       font-family: var(--font-display);
       font-size: 17px;
       font-weight: 700;
       letter-spacing: -0.01em;
       text-transform: uppercase;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       line-height: 1.25;
     }
 
-    .card-spec-note {
+    .drop-edition-note {
       font-size: 13px;
       color: var(--text-muted);
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
-    .card-price-row {
+    .drop-pricing-row {
       display: flex;
       align-items: baseline;
       gap: 10px;
@@ -831,553 +612,178 @@
       margin-bottom: 16px;
     }
 
-    .card-current-price {
-      font-family: var(--font-display);
-      font-size: 22px;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .card-mrp-price {
-      font-size: 14px;
-      color: var(--text-dim);
-      text-decoration: line-through;
-    }
-
-    .card-stock-status {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      font-size: 12px;
-      font-weight: 600;
-      color: #25d366;
-      margin-bottom: 16px;
-    }
-
-    .card-stock-status.sold-out {
-      color: var(--sold-out-red);
-    }
-
-    .card-stock-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: currentColor;
-    }
-
-    .card-action-btn {
-      width: 100%;
-      padding: 13px 20px;
-      border-radius: 10px;
-      background: var(--text);
-      color: var(--bg);
-      font-family: var(--font-display);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      transition: opacity 0.2s ease, transform 0.2s ease;
-    }
-
-    .card-action-btn:hover {
-      opacity: 0.9;
-      transform: translateY(-1px);
-    }
-
-    .card-action-btn.btn-sold-out {
-      background: var(--bg-badge);
-      color: var(--text-dim);
-      border: 1px solid var(--border);
-      cursor: not-allowed;
-    }
-
-    /* ==========================================================================
-       8. DYNAMIC INTERACTIVE PRODUCT DETAIL SHOWCASE (PDP)
-       ========================================================================== */
-    .pdp-section {
-      padding: 80px 0 100px;
-      border-bottom: 1px solid var(--border);
-      position: relative;
-    }
-
-    .pdp-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-      align-items: start;
-    }
-
-    @media (max-width: 992px) {
-      .pdp-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
-    }
-
-    /* Gallery Column */
-    .pdp-gallery-wrap {
-      position: sticky;
-      top: 100px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .pdp-main-image-box {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      border-radius: 20px;
-      overflow: hidden;
-      background: #0d0d0d;
-      border: 1px solid var(--border);
-      position: relative;
-      cursor: zoom-in;
-    }
-
-    .pdp-main-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.4s ease, opacity 0.3s ease;
-    }
-
-    .pdp-main-image-box:hover .pdp-main-image {
-      transform: scale(1.03);
-    }
-
-    .pdp-zoom-badge {
-      position: absolute;
-      bottom: 16px;
-      right: 16px;
-      padding: 6px 12px;
-      border-radius: 8px;
-      background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(8px);
-      color: #ffffff;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      pointer-events: none;
-    }
-
-    .pdp-thumbnails-row {
-      display: flex;
-      gap: 12px;
-      overflow-x: auto;
-      padding-bottom: 6px;
-    }
-
-    .pdp-thumb {
-      width: 82px;
-      height: 82px;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 2px solid var(--border);
-      cursor: pointer;
-      flex-shrink: 0;
-      background: #111111;
-      transition: border-color 0.25s ease, transform 0.2s ease;
-    }
-
-    .pdp-thumb:hover {
-      border-color: var(--border-hover);
-      transform: translateY(-2px);
-    }
-
-    .pdp-thumb.active {
-      border-color: var(--brand-orange);
-    }
-
-    .pdp-thumb img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    /* Details Column */
-    .pdp-details-wrap {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .pdp-breadcrumb {
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--brand-orange);
-      margin-bottom: 10px;
-    }
-
-    .pdp-product-title {
-      font-family: var(--font-display);
-      font-size: clamp(28px, 3.5vw, 42px);
-      font-weight: 700;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-
-    .pdp-edition-subtitle {
-      font-size: 16px;
-      color: var(--text-muted);
-      margin-bottom: 22px;
-    }
-
-    .pdp-price-box {
-      display: flex;
-      align-items: baseline;
-      gap: 14px;
-      padding: 16px 20px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      margin-bottom: 24px;
-    }
-
-    .pdp-current-price {
-      font-family: var(--font-display);
-      font-size: 32px;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .pdp-mrp-price {
-      font-size: 18px;
-      color: var(--text-dim);
-      text-decoration: line-through;
-    }
-
-    .pdp-save-badge {
-      padding: 3px 10px;
-      border-radius: 6px;
-      background: var(--brand-orange);
-      color: #ffffff;
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.06em;
-      margin-left: auto;
-    }
-
-    /* Stock Status Box */
-    .pdp-stock-indicator {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 12px 18px;
-      border-radius: 10px;
-      background: rgba(37, 211, 102, 0.08);
-      border: 1px solid rgba(37, 211, 102, 0.25);
-      font-size: 13px;
-      font-weight: 600;
-      color: #25d366;
-      margin-bottom: 24px;
-    }
-
-    .pdp-stock-indicator.sold-out {
-      background: rgba(255, 51, 75, 0.08);
-      border-color: rgba(255, 51, 75, 0.25);
-      color: var(--sold-out-red);
-    }
-
-    .pdp-stock-pulse {
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: currentColor;
-      box-shadow: 0 0 10px currentColor;
-      animation: pulse 1.6s infinite;
-    }
-
-    /* Size Selector */
-    .pdp-selector-title {
-      font-family: var(--font-display);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .pdp-size-pills-row {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 26px;
-    }
-
-    .pdp-size-pill {
-      flex: 1;
-      padding: 14px 18px;
-      border-radius: 10px;
-      background: var(--bg-surface);
-      border: 2px solid var(--text);
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    /* Main WhatsApp Action Button */
-    .pdp-buy-action-btn {
-      width: 100%;
-      padding: 18px 28px;
-      border-radius: 14px;
-      background: var(--whatsapp-green);
-      color: #ffffff;
-      font-family: var(--font-display);
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-      box-shadow: 0 10px 28px rgba(37, 211, 102, 0.35);
-      margin-bottom: 16px;
-    }
-
-    .pdp-buy-action-btn:hover {
-      background: var(--whatsapp-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 14px 36px rgba(37, 211, 102, 0.5);
-    }
-
-    .pdp-buy-action-btn.btn-sold-out {
-      background: var(--sold-out-red);
-      box-shadow: 0 10px 28px rgba(255, 51, 75, 0.35);
-    }
-
-    .pdp-buy-action-btn svg {
-      width: 22px;
-      height: 22px;
-      fill: currentColor;
-    }
-
-    .pdp-trust-bullet-points {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 32px;
-      padding: 16px;
-      border-radius: 12px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-    }
-
-    .trust-bullet {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text-muted);
-    }
-
-    .trust-bullet svg {
-      width: 16px;
-      height: 16px;
-      fill: var(--brand-orange);
-      flex-shrink: 0;
-    }
-
-    /* Accordions */
-    .pdp-accordion-group {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .pdp-accordion-item {
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: var(--bg-surface);
-      overflow: hidden;
-      transition: border-color 0.2s ease;
-    }
-
-    .pdp-accordion-item:hover {
-      border-color: var(--border-hover);
-    }
-
-    .accordion-header {
-      width: 100%;
-      padding: 16px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      text-align: left;
-    }
-
-    .accordion-icon {
-      font-size: 16px;
-      transition: transform 0.25s ease;
-    }
-
-    .pdp-accordion-item.open .accordion-icon {
-      transform: rotate(180deg);
-    }
-
-    .accordion-content {
-      padding: 0 20px 18px;
-      font-size: 14px;
-      line-height: 1.6;
-      color: var(--text-muted);
-      display: none;
-    }
-
-    .pdp-accordion-item.open .accordion-content {
-      display: block;
-    }
-
-    .spec-table-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 8px 0;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .spec-table-row:last-child {
-      border-bottom: none;
-    }
-
-    .spec-label {
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    /* ==========================================================================
-       9. WHY BUILT DIFFERENT SECTION (CRIB-CTRL COMPARISON)
-       ========================================================================== */
-    .comparison-section {
-      padding: 90px 0;
-      border-bottom: 1px solid var(--border);
-      background: var(--bg-surface);
-    }
-
-    .comparison-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-top: 48px;
-    }
-
-    @media (max-width: 900px) {
-      .comparison-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .comp-card {
-      padding: 32px 28px;
-      border-radius: 16px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      position: relative;
-    }
-
-    .comp-card.featured {
-      border-color: var(--brand-orange);
-      box-shadow: 0 0 32px rgba(255, 77, 0, 0.15);
-    }
-
-    .comp-featured-badge {
-      position: absolute;
-      top: -12px;
-      left: 28px;
-      padding: 3px 12px;
-      border-radius: 999px;
-      background: var(--brand-orange);
-      color: #ffffff;
-      font-family: var(--font-display);
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .comp-title {
+    .price-current {
       font-family: var(--font-display);
       font-size: 20px;
       font-weight: 700;
+      color: var(--text);
+    }
+
+    .price-mrp {
+      font-size: 13px;
+      color: var(--text-dim);
+      text-decoration: line-through;
+    }
+
+    .drop-stock-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--wa-green);
+      margin-bottom: 16px;
+    }
+
+    .drop-stock-row.sold-out {
+      color: var(--sold-out-red);
+    }
+
+    .stock-indicator-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .card-actions-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+    }
+
+    .btn-card-buy {
+      padding: 11px 16px;
+      border-radius: 8px;
+      background: var(--wa-green);
+      color: #ffffff;
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-
-    .comp-list {
-      list-style: none;
       display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: background 0.2s ease;
     }
 
-    .comp-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 14px;
-      color: var(--text-muted);
+    .btn-card-buy:hover {
+      background: var(--wa-hover);
     }
 
-    .comp-item svg {
-      width: 18px;
-      height: 18px;
-      flex-shrink: 0;
-      margin-top: 2px;
+    .btn-card-buy.sold-out {
+      background: var(--bg-surface);
+      color: var(--text-dim);
+      border: 1px solid var(--border);
+    }
+
+    .btn-card-buy.sold-out:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .btn-card-details {
+      padding: 11px 14px;
+      border-radius: 8px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+
+    .btn-card-details:hover {
+      border-color: var(--border-hover);
+      background: var(--bg-card-hover);
     }
 
     /* ==========================================================================
-       10. LOOKBOOK / ROOM INSPIRATION
+       7. CRAFTSMANSHIP & DETAILS (CLEAN 3-COLUMN EDITORIAL)
+       ========================================================================== */
+    .craft-section {
+      padding: 80px 0;
+      border-top: 1px solid var(--border);
+      background: var(--bg-surface);
+    }
+
+    .craft-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 36px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 860px) {
+      .craft-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+    }
+
+    .craft-card {
+      padding: 28px;
+      border-radius: 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+    }
+
+    .craft-num {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: var(--accent-orange);
+      margin-bottom: 12px;
+    }
+
+    .craft-title {
+      font-family: var(--font-display);
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .craft-text {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       8. LOOKBOOK (ROOM ATMOSPHERE)
        ========================================================================== */
     .lookbook-section {
-      padding: 90px 0;
-      border-bottom: 1px solid var(--border);
+      padding: 80px 0;
+      border-top: 1px solid var(--border);
     }
 
     .lookbook-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 24px;
-      margin-top: 48px;
+      margin-top: 40px;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 860px) {
       .lookbook-grid {
         grid-template-columns: 1fr;
       }
     }
 
     .lookbook-card {
-      border-radius: 16px;
+      position: relative;
+      border-radius: 14px;
       overflow: hidden;
       border: 1px solid var(--border);
-      background: #000;
-      position: relative;
       aspect-ratio: 4 / 5;
+      cursor: pointer;
     }
 
     .lookbook-card img {
@@ -1388,7 +794,7 @@
     }
 
     .lookbook-card:hover img {
-      transform: scale(1.05);
+      transform: scale(1.04);
     }
 
     .lookbook-overlay {
@@ -1397,20 +803,20 @@
       left: 0;
       right: 0;
       padding: 24px;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
       color: #ffffff;
     }
 
     .lookbook-tag {
       font-family: var(--font-display);
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 700;
-      color: var(--brand-orange);
+      letter-spacing: 0.12em;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      color: var(--accent-orange);
     }
 
-    .lookbook-name {
+    .lookbook-title {
       font-family: var(--font-display);
       font-size: 18px;
       font-weight: 700;
@@ -1419,216 +825,390 @@
     }
 
     /* ==========================================================================
-       11. FAQ & RETURN POLICY
+       9. SUPPORT & RETURN POLICY (CALM 3-BOX LAYOUT)
        ========================================================================== */
-    .faq-section {
-      padding: 90px 0;
-      border-bottom: 1px solid var(--border);
+    .support-section {
+      padding: 80px 0;
+      border-top: 1px solid var(--border);
+      background: var(--bg-surface);
     }
 
-    .faq-grid {
-      max-width: 860px;
-      margin: 48px auto 0;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    .support-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 860px) {
+      .support-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .support-card {
+      padding: 30px;
+      border-radius: 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+    }
+
+    .support-icon {
+      font-size: 22px;
+      margin-bottom: 14px;
+      display: inline-block;
+    }
+
+    .support-title {
+      font-family: var(--font-display);
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .support-text {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .support-link {
+      color: var(--text);
+      font-weight: 700;
+      text-decoration: underline;
     }
 
     /* ==========================================================================
-       12. SITE FOOTER
+       10. MINIMAL FOOTER
        ========================================================================== */
     .site-footer {
-      background: var(--bg-surface);
-      padding: 70px 0 36px;
+      padding: 60px 0 32px;
       border-top: 1px solid var(--border);
+      background: var(--bg);
     }
 
-    .footer-top-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1.5fr;
-      gap: 48px;
-      margin-bottom: 50px;
-    }
-
-    @media (max-width: 900px) {
-      .footer-top-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 36px;
-      }
-    }
-
-    @media (max-width: 600px) {
-      .footer-top-grid {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-    }
-
-    .footer-brand-title {
-      font-family: var(--font-display);
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 14px;
-    }
-
-    .footer-brand-text {
-      font-size: 14px;
-      color: var(--text-muted);
-      max-width: 320px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    .footer-heading {
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 18px;
-      color: var(--text);
-    }
-
-    .footer-links-list {
-      list-style: none;
+    .footer-flex {
       display: flex;
-      flex-direction: column;
-      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
     }
 
-    .footer-links-list a {
-      font-size: 14px;
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
       color: var(--text-muted);
       transition: color 0.2s ease;
     }
 
-    .footer-links-list a:hover {
+    .footer-links a:hover {
       color: var(--text);
     }
 
-    .footer-bottom-bar {
-      padding-top: 32px;
-      border-top: 1px solid var(--border);
+    .footer-bottom {
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
       flex-wrap: wrap;
       gap: 16px;
+      padding-top: 24px;
       font-size: 13px;
       color: var(--text-dim);
     }
 
-    /* Floating WhatsApp Pill */
-    .floating-wa-pill {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 999;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 12px 22px;
-      border-radius: 999px;
-      background: var(--whatsapp-green);
-      color: #ffffff;
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
-      transition: transform 0.25s ease, background 0.2s ease;
-    }
-
-    .floating-wa-pill:hover {
-      background: var(--whatsapp-hover);
-      transform: translateY(-3px) scale(1.02);
-    }
-
-    .floating-wa-pill svg {
-      width: 22px;
-      height: 22px;
-      fill: currentColor;
-    }
-
-    /* Zoom Modal */
-    .image-zoom-modal {
+    /* ==========================================================================
+       11. PRODUCT QUICK VIEW MODAL (FOCUSED & EFFORTLESS)
+       ========================================================================== */
+    .quick-modal-overlay {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.92);
+      background: var(--modal-overlay);
       backdrop-filter: blur(12px);
       z-index: 2000;
       display: none;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      padding: 20px;
     }
 
-    .image-zoom-modal.active {
+    .quick-modal-overlay.active {
       display: flex;
     }
 
-    .modal-img-wrap {
-      max-width: 90vw;
-      max-height: 85vh;
+    .quick-modal-card {
+      width: 100%;
+      max-width: 940px;
+      max-height: 90vh;
+      background: var(--modal-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow-y: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       position: relative;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
     }
 
-    .modal-img-wrap img {
-      max-width: 100%;
-      max-height: 85vh;
-      object-fit: contain;
-      border-radius: 12px;
+    @media (max-width: 768px) {
+      .quick-modal-card {
+        grid-template-columns: 1fr;
+        max-height: 85vh;
+      }
     }
 
     .modal-close-btn {
       position: absolute;
-      top: 24px;
-      right: 28px;
-      width: 44px;
-      height: 44px;
+      top: 18px;
+      right: 18px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.15);
-      color: #ffffff;
-      font-size: 24px;
+      background: var(--pill-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      z-index: 10;
       transition: background 0.2s ease;
     }
 
     .modal-close-btn:hover {
-      background: rgba(255, 255, 255, 0.3);
+      background: var(--border-hover);
+    }
+
+    .modal-gallery-col {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: var(--bg);
+    }
+
+    .modal-main-img-box {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #000;
+      border: 1px solid var(--border);
+    }
+
+    .modal-main-img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-thumb-row {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+    }
+
+    .modal-thumb {
+      width: 64px;
+      height: 64px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .modal-thumb.active {
+      border-color: var(--accent-orange);
+    }
+
+    .modal-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .modal-info-col {
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-tag {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-orange);
+      margin-bottom: 8px;
+    }
+
+    .modal-title {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-bottom: 6px;
+    }
+
+    .modal-edition {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .modal-price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .modal-price-current {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    .modal-price-mrp {
+      font-size: 15px;
+      color: var(--text-dim);
+      text-decoration: line-through;
+    }
+
+    .modal-stock-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      background: rgba(37, 211, 102, 0.1);
+      color: var(--wa-green);
+      margin-bottom: 22px;
+    }
+
+    .modal-stock-badge.sold-out {
+      background: rgba(255, 51, 75, 0.1);
+      color: var(--sold-out-red);
+    }
+
+    .modal-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .modal-specs-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 28px;
+      font-size: 13px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .modal-spec-row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .modal-spec-label {
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+
+    .modal-spec-val {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .modal-buy-btn {
+      width: 100%;
+      padding: 16px;
+      border-radius: 12px;
+      background: var(--wa-green);
+      color: #ffffff;
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: background 0.2s ease, transform 0.2s ease;
+      margin-top: auto;
+    }
+
+    .modal-buy-btn:hover {
+      background: var(--wa-hover);
+      transform: translateY(-1px);
+    }
+
+    .modal-buy-btn.sold-out {
+      background: var(--sold-out-red);
+    }
+
+    .modal-buy-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
     }
   </style>
 </head>
 <body>
 
   <!-- ========================================================================
-       TOP CONTINUOUS RIGHT-TO-LEFT WARNING MARQUEE
+       TOP ANNOUNCEMENT TICKER (CALM, SMOOTH, RIGHT-TO-LEFT)
        ======================================================================== -->
-  <div class="top-ticker-bar" aria-label="Announcement ticker">
-    <div class="ticker-track">
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>WALLWAVE × CRIB-CTRL</strong> // FALL DROP 01 LIVE</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>PREMIUM GLOSSY WALL FLAGS</strong> // HIGH SHINE SATURATION</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>45 × 35 INCHES</strong> // ZERO DAMAGE REINFORCED CORNER LOOPS</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>COMPLIMENTARY EXPRESS DELIVERY</strong> ACROSS INDIA</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>WHATSAPP ORDERING</strong> DIRECT DISPATCH VIA +91 8699168853</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>RETURN POLICY</strong>: EMAIL CSWALLWAVE@GMAIL.COM — TEAM REVERTS IN 24H</div>
+  <div class="announcement-bar" aria-label="Drop ticker">
+    <div class="ticker-loop">
+      <div class="ticker-node">WALLWAVE <span class="accent-mark">//</span> DROP 01 LIVE</div>
+      <div class="ticker-node">45 × 35" GLOSSY STATEMENT FLAGS</div>
+      <div class="ticker-node">ZERO-DAMAGE REINFORCED CORNER LOOPS</div>
+      <div class="ticker-node">FREE EXPRESS DELIVERY ACROSS INDIA</div>
+      <div class="ticker-node">WHATSAPP DIRECT ORDERING: +91 8699168853</div>
+      <div class="ticker-node">7-DAY RETURNS: CSWALLWAVE@GMAIL.COM</div>
 
-      <!-- Duplicated for seamless infinite loop -->
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>WALLWAVE × CRIB-CTRL</strong> // FALL DROP 01 LIVE</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>PREMIUM GLOSSY WALL FLAGS</strong> // HIGH SHINE SATURATION</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>45 × 35 INCHES</strong> // ZERO DAMAGE REINFORCED CORNER LOOPS</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>COMPLIMENTARY EXPRESS DELIVERY</strong> ACROSS INDIA</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>WHATSAPP ORDERING</strong> DIRECT DISPATCH VIA +91 8699168853</div>
-      <div class="ticker-item"><span class="ticker-dot"></span> <strong>RETURN POLICY</strong>: EMAIL CSWALLWAVE@GMAIL.COM — TEAM REVERTS IN 24H</div>
+      <!-- Duplicate for infinite loop -->
+      <div class="ticker-node">WALLWAVE <span class="accent-mark">//</span> DROP 01 LIVE</div>
+      <div class="ticker-node">45 × 35" GLOSSY STATEMENT FLAGS</div>
+      <div class="ticker-node">ZERO-DAMAGE REINFORCED CORNER LOOPS</div>
+      <div class="ticker-node">FREE EXPRESS DELIVERY ACROSS INDIA</div>
+      <div class="ticker-node">WHATSAPP DIRECT ORDERING: +91 8699168853</div>
+      <div class="ticker-node">7-DAY RETURNS: CSWALLWAVE@GMAIL.COM</div>
     </div>
   </div>
 
@@ -1638,31 +1218,29 @@
   <header class="site-header">
     <div class="container">
       <div class="header-inner">
-        <a href="#home" class="brand-logo-wrap">
+        <a href="#home" class="brand-wrap">
           <img src="images/logo.png" alt="WALLWAVE Logo" class="brand-logo-img">
-          <span>WALLWAVE</span>
-          <span class="brand-badge">FLAGS</span>
+          <span class="brand-name">WALLWAVE</span>
         </a>
 
         <nav>
-          <ul class="nav-links">
-            <li><a href="#catalog" class="active">Flags Collection</a></li>
-            <li><a href="#pdp">Product Details</a></li>
-            <li><a href="#comparison">Why Built Different</a></li>
+          <ul class="nav-menu">
+            <li><a href="#drops">The Drops</a></li>
+            <li><a href="#craftsmanship">Craftsmanship</a></li>
             <li><a href="#lookbook">Lookbook</a></li>
-            <li><a href="#faq">FAQ &amp; Returns</a></li>
+            <li><a href="#returns">Returns &amp; Support</a></li>
           </ul>
         </nav>
 
-        <div class="header-actions">
-          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Light and Dark Mode" title="Toggle Theme">
-            <svg id="themeIconSun" style="display:none;" viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0z"/></svg>
-            <svg id="themeIconMoon" viewBox="0 0 24 24"><path d="M12.3 2a10 10 0 0 0-.19 20 10 10 0 0 0 8.35-4.52.75.75 0 0 0-.68-1.13A8.5 8.5 0 0 1 10.35 6a8.4 8.4 0 0 1 2.39-5.46.75.75 0 0 0-.44-1.29V2z"/></svg>
+        <div class="header-ctrls">
+          <button class="theme-btn" id="themeBtn" aria-label="Toggle Light and Dark Mode" title="Toggle Theme">
+            <svg id="iconSun" style="display:none;" viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0z"/></svg>
+            <svg id="iconMoon" viewBox="0 0 24 24"><path d="M12.3 2a10 10 0 0 0-.19 20 10 10 0 0 0 8.35-4.52.75.75 0 0 0-.68-1.13A8.5 8.5 0 0 1 10.35 6a8.4 8.4 0 0 1 2.39-5.46.75.75 0 0 0-.44-1.29V2z"/></svg>
           </button>
 
-          <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE%20team!%20%F0%9F%91%8B%20I'm%20browsing%20the%20Flags%20Collection%20and%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener" class="header-wa-btn">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.12c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.35c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.13-8.13 8.13zm4.46-6.08c-.24-.12-1.45-.71-1.67-.8-.23-.08-.39-.12-.56.12-.17.24-.65.8-.8 1-.15.19-.3.22-.55.1-.24-.12-1.03-.38-1.97-1.21-.73-.65-1.22-1.45-1.36-1.7-.15-.24-.02-.37.1-.49.11-.11.24-.28.37-.42.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.45.06-.68.32-.24.25-.9.88-.9 2.15s.92 2.5 1.05 2.67c.12.17 1.81 2.76 4.38 3.87.61.26 1.09.42 1.46.54.62.2 1.18.17 1.62.11.5-.08 1.45-.59 1.65-1.16.2-.58.2-1.07.15-1.16-.06-.11-.2-.18-.44-.3z"/></svg>
-            <span>WhatsApp Us</span>
+          <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE%20team!%20%F0%9F%91%8B%20I'd%20like%20to%20order%20from%20Drop%2001." target="_blank" rel="noopener" class="header-wa-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.12c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.35c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.13-8.13 8.13zm4.46-6.08c-.24-.12-1.45-.71-1.67-.8-.23-.08-.39-.12-.56.12-.17.24-.65.8-.8 1-.15.19-.3.22-.55.1-.24-.12-1.03-.38-1.97-1.21-.73-.65-1.22-1.45-1.36-1.7-.15-.24-.02-.37.1-.49.11-.11.24-.28.37-.42.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.45.06-.68.32-.24.25-.9.88-.9 2.15s.92 2.5 1.05 2.67c.12.17 1.81 2.76 4.38 3.87.61.26 1.09.42 1.46.54.62.2 1.18.17 1.62.11.5-.08 1.45-.59 1.65-1.16.2-.58.2-1.07.15-1.16-.06-.11-.2-.18-.44-.3z"/></svg>
+            <span>WhatsApp</span>
           </a>
         </div>
       </div>
@@ -1670,208 +1248,161 @@
   </header>
 
   <!-- ========================================================================
-       HERO SECTION
+       HERO SECTION (CLEAN & CONFIDENT)
        ======================================================================== -->
-  <section class="hero-section" id="home">
-    <div class="hero-glow"></div>
+  <section class="hero" id="home">
     <div class="container">
-      <div class="hero-content">
-        <div class="hero-eyebrow-pill">
-          <span class="pulse-dot"></span>
-          WALLWAVE × CRIB-CTRL // DROP 01 LIVE
-        </div>
+      <span class="hero-tag">DROP 01 // FALL 2026</span>
+      <h1 class="hero-title">YOUR SPACE. YOUR FREQUENCY.</h1>
+      <p class="hero-desc">
+        High-gloss statement wall flags crafted for bedrooms, dorms, and creative setups. Engineered with rich color saturation and reinforced zero-damage corner loops.
+      </p>
 
-        <h1 class="hero-title">
-          WALL ART <span class="highlight-orange">BUILT DIFFERENT.</span>
-        </h1>
+      <div class="hero-features-bar">
+        <span class="hero-feat-chip">45 × 35 Inches</span>
+        <span class="hero-feat-chip">High-Shine Gloss Finish</span>
+        <span class="hero-feat-chip">Zero-Damage Hanging</span>
+        <span class="hero-feat-chip">₹2,099 Each</span>
+      </div>
 
-        <p class="hero-subtitle">
-          Every piece in this drop runs on high-gloss lustrous fabric engineered to hit different — vibrant color saturation, deep contrast, and reinforced corner loops. Not a paper poster. A centerpiece.
-        </p>
-
-        <div class="hero-chips-row">
-          <div class="hero-chip">📐 45 × 35 INCHES</div>
-          <div class="hero-chip">✨ HIGH-SHINE GLOSS</div>
-          <div class="hero-chip">🪝 REINFORCED CORNER LOOPS</div>
-          <div class="hero-chip">⚡ PRICED AT ₹2,099</div>
-          <div class="hero-chip">📦 DISPATCH WITHIN 24H</div>
-        </div>
-
-        <div class="hero-actions-row">
-          <a href="#catalog" class="btn-main-cta">Explore The Drop ↓</a>
-          <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE!%20%F0%9F%91%8B%20I'd%20like%20to%20check%20availability%20for%20the%20Flags%20Collection." target="_blank" rel="noopener" class="btn-ghost-cta">
-            Instant WhatsApp Checkout
-          </a>
-        </div>
+      <div>
+        <a href="#drops" class="hero-cta-btn">View Drops &darr;</a>
       </div>
     </div>
   </section>
 
   <!-- ========================================================================
-       CATALOG SECTION (EXACTLY THE 4 PRODUCTS SPECIFIED)
+       THE DROPS CATALOG (EXACTLY THE 4 PRODUCTS SPECIFIED)
        ======================================================================== -->
-  <section class="catalog-section" id="catalog">
+  <section class="drops-section" id="drops">
     <div class="container">
-      <div class="catalog-header">
-        <span class="section-eyebrow">Flags Collection</span>
-        <h2 class="section-title">Streetwear Wall Tapestries</h2>
-        <p class="section-desc">
-          Engineered for dorms, bedrooms, and creative studios. Finished with reinforced top corner loops for damage-free hanging.
-        </p>
-
-        <!-- Filter Tabs -->
-        <div class="filter-tabs-row" id="filterTabs">
-          <button class="filter-tab active" data-filter="all">All Flags (4)</button>
-          <button class="filter-tab" data-filter="drake">Drake Collection (2)</button>
-          <button class="filter-tab" data-filter="streetwear">Streetwear Icons (1)</button>
-          <button class="filter-tab" data-filter="soldout">Sold Out (1)</button>
+      <div class="section-head">
+        <div>
+          <div class="section-eyebrow">WALLWAVE DROPS</div>
+          <h2 class="section-heading">Featured Flags</h2>
         </div>
+        <div class="section-counter">4 Exclusive Releases</div>
       </div>
 
-      <!-- The 4 Product Cards Grid -->
-      <div class="catalog-grid" id="catalogGrid">
+      <div class="drops-grid">
 
         <!-- PRODUCT 1: GOD'S PLAN FLAG -->
-        <div class="product-card" data-category="drake" onclick="selectProduct('godsplan')">
-          <div class="card-media-wrapper">
-            <img src="images/godsplan-room.png" alt="God's Plan Flag Ambient Room Mockup" class="card-img-primary" loading="lazy">
-            <img src="images/godsplan-flat.png" alt="God's Plan Flag Flat Artwork" class="card-img-hover" loading="lazy">
-
-            <div class="card-badge-top-left">
-              <span class="badge-pill new-drop">New Drop</span>
-              <span class="badge-pill classic">Bestseller</span>
-            </div>
-            <div class="card-badge-top-right">
-              <span class="badge-discount">30% OFF</span>
-            </div>
+        <div class="drop-card" onclick="openProductModal('godsplan')">
+          <div class="drop-media-box">
+            <img src="images/godsplan-room.png" alt="God's Plan Flag Ambient View" class="drop-img-main" loading="lazy">
+            <img src="images/godsplan-flat.png" alt="God's Plan Flag Artwork" class="drop-img-alt" loading="lazy">
+            <span class="drop-badge-tag">New Drop</span>
           </div>
-
-          <div class="card-info-body">
-            <span class="card-category-tag">Drake Edition // Chrome Drip</span>
-            <h3 class="card-title">God's Plan Flag</h3>
-            <p class="card-spec-note">45" × 35" // Premium Glossy Fabric &bull; Corner Loops</p>
-
-            <div class="card-price-row">
-              <span class="card-current-price">₹2,099</span>
-              <span class="card-mrp-price">₹2,999</span>
+          <div class="drop-info">
+            <h3 class="drop-title">God's Plan Flag</h3>
+            <p class="drop-edition-note">Drake Edition &bull; Chrome Drip Typography</p>
+            
+            <div class="drop-pricing-row">
+              <span class="price-current">₹2,099</span>
+              <span class="price-mrp">₹2,999</span>
             </div>
 
-            <div class="card-stock-status">
-              <span class="card-stock-dot"></span>
+            <div class="drop-stock-row">
+              <span class="stock-indicator-dot"></span>
               <span>Only 4 left in stock</span>
             </div>
 
-            <button class="card-action-btn">
-              <span>View Details &amp; Order</span>
-              <span>&rarr;</span>
-            </button>
+            <div class="card-actions-grid" onclick="event.stopPropagation()">
+              <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE%20team!%20%F0%9F%91%8B%20I%20would%20like%20to%20order%20the%20God's%20Plan%20Flag%20(45x35%20inches)%20for%20%E2%82%B92,099.%20Please%20confirm%20availability%20and%20shipping.%20My%20delivery%20address:%20" target="_blank" rel="noopener" class="btn-card-buy">
+                <span>Order on WhatsApp</span>
+              </a>
+              <button class="btn-card-details" onclick="openProductModal('godsplan')">Details</button>
+            </div>
           </div>
         </div>
 
         <!-- PRODUCT 2: TAKE CARE FLAG -->
-        <div class="product-card" data-category="drake" onclick="selectProduct('takecare')">
-          <div class="card-media-wrapper">
-            <img src="images/takecare-room.png" alt="Take Care Flag Bedroom Mockup" class="card-img-primary" loading="lazy">
-            <img src="images/takecare-flat.jpg" alt="Take Care Flag Flat Artwork" class="card-img-hover" loading="lazy">
-
-            <div class="card-badge-top-left">
-              <span class="badge-pill classic">Vintage Classic</span>
-            </div>
-            <div class="card-badge-top-right">
-              <span class="badge-discount">30% OFF</span>
-            </div>
+        <div class="drop-card" onclick="openProductModal('takecare')">
+          <div class="drop-media-box">
+            <img src="images/takecare-room.png" alt="Take Care Flag Room View" class="drop-img-main" loading="lazy">
+            <img src="images/takecare-flat.jpg" alt="Take Care Flag Artwork" class="drop-img-alt" loading="lazy">
+            <span class="drop-badge-tag">Vintage Classic</span>
           </div>
-
-          <div class="card-info-body">
-            <span class="card-category-tag">Drake Edition // Album Art</span>
-            <h3 class="card-title">Take Care Flag</h3>
-            <p class="card-spec-note">45" × 35" // Candlelight Gold &amp; Owl Insignia</p>
-
-            <div class="card-price-row">
-              <span class="card-current-price">₹2,099</span>
-              <span class="card-mrp-price">₹2,999</span>
+          <div class="drop-info">
+            <h3 class="drop-title">Take Care Flag</h3>
+            <p class="drop-edition-note">Drake Edition &bull; Candlelight &amp; Owl Art</p>
+            
+            <div class="drop-pricing-row">
+              <span class="price-current">₹2,099</span>
+              <span class="price-mrp">₹2,999</span>
             </div>
 
-            <div class="card-stock-status">
-              <span class="card-stock-dot"></span>
+            <div class="drop-stock-row">
+              <span class="stock-indicator-dot"></span>
               <span>Only 3 left in stock</span>
             </div>
 
-            <button class="card-action-btn">
-              <span>View Details &amp; Order</span>
-              <span>&rarr;</span>
-            </button>
+            <div class="card-actions-grid" onclick="event.stopPropagation()">
+              <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE%20team!%20%F0%9F%91%8B%20I%20would%20like%20to%20order%20the%20Take%20Care%20Flag%20(45x35%20inches)%20for%20%E2%82%B92,099.%20Please%20confirm%20availability%20and%20shipping.%20My%20delivery%20address:%20" target="_blank" rel="noopener" class="btn-card-buy">
+                <span>Order on WhatsApp</span>
+              </a>
+              <button class="btn-card-details" onclick="openProductModal('takecare')">Details</button>
+            </div>
           </div>
         </div>
 
         <!-- PRODUCT 3: ABSOLUT VODKA FLAG -->
-        <div class="product-card" data-category="streetwear" onclick="selectProduct('vodka')">
-          <div class="card-media-wrapper">
-            <img src="images/vodka-room.png" alt="Absolut Vodka Flag Room Mockup" class="card-img-primary" loading="lazy">
-            <img src="images/vodka-flat.png" alt="Absolut Vodka Flag Flat Artwork" class="card-img-hover" loading="lazy">
-
-            <div class="card-badge-top-left">
-              <span class="badge-pill minimal">Limited Drop</span>
-            </div>
-            <div class="card-badge-top-right">
-              <span class="badge-discount">30% OFF</span>
-            </div>
+        <div class="drop-card" onclick="openProductModal('vodka')">
+          <div class="drop-media-box">
+            <img src="images/vodka-room.png" alt="Absolut Vodka Flag Room View" class="drop-img-main" loading="lazy">
+            <img src="images/vodka-flat.png" alt="Absolut Vodka Flag Artwork" class="drop-img-alt" loading="lazy">
+            <span class="drop-badge-tag">Minimalist Icon</span>
           </div>
-
-          <div class="card-info-body">
-            <span class="card-category-tag">Minimalist Streetwear // Icon</span>
-            <h3 class="card-title">Absolut Vodka Flag</h3>
-            <p class="card-spec-note">45" × 35" // Crisp White &amp; Lacquered Sheen</p>
-
-            <div class="card-price-row">
-              <span class="card-current-price">₹2,099</span>
-              <span class="card-mrp-price">₹2,999</span>
+          <div class="drop-info">
+            <h3 class="drop-title">Absolut Vodka Flag</h3>
+            <p class="drop-edition-note">Original Vodka Edition &bull; High-Shine Finish</p>
+            
+            <div class="drop-pricing-row">
+              <span class="price-current">₹2,099</span>
+              <span class="price-mrp">₹2,999</span>
             </div>
 
-            <div class="card-stock-status">
-              <span class="card-stock-dot"></span>
+            <div class="drop-stock-row">
+              <span class="stock-indicator-dot"></span>
               <span>Only 5 left in stock</span>
             </div>
 
-            <button class="card-action-btn">
-              <span>View Details &amp; Order</span>
-              <span>&rarr;</span>
-            </button>
+            <div class="card-actions-grid" onclick="event.stopPropagation()">
+              <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE%20team!%20%F0%9F%91%8B%20I%20would%20like%20to%20order%20the%20Absolut%20Vodka%20Flag%20(45x35%20inches)%20for%20%E2%82%B92,099.%20Please%20confirm%20availability%20and%20shipping.%20My%20delivery%20address:%20" target="_blank" rel="noopener" class="btn-card-buy">
+                <span>Order on WhatsApp</span>
+              </a>
+              <button class="btn-card-details" onclick="openProductModal('vodka')">Details</button>
+            </div>
           </div>
         </div>
 
         <!-- PRODUCT 4: KARAN AUJLA FLAG (SOLD OUT) -->
-        <div class="product-card" data-category="soldout" onclick="selectProduct('karan')">
-          <div class="card-media-wrapper">
-            <img src="images/tapestry-product.jpg" alt="Karan Aujla Four You Tapestry" class="card-img-primary" loading="lazy">
-            <img src="images/tapestry-room.jpg" alt="Karan Aujla Tapestry Room Mockup" class="card-img-hover" loading="lazy">
-
-            <div class="card-badge-top-left">
-              <span class="badge-pill sold-out">Sold Out</span>
-            </div>
-            <div class="card-badge-top-right">
-              <span class="badge-discount" style="background:var(--sold-out-red); color:#fff;">ARCHIVED</span>
-            </div>
+        <div class="drop-card" onclick="openProductModal('karan')">
+          <div class="drop-media-box">
+            <img src="images/tapestry-product.jpg" alt="Karan Aujla Four You Tapestry" class="drop-img-main" loading="lazy">
+            <img src="images/tapestry-room.jpg" alt="Karan Aujla Tapestry Room View" class="drop-img-alt" loading="lazy">
+            <span class="drop-badge-tag sold-out">Sold Out</span>
           </div>
-
-          <div class="card-info-body">
-            <span class="card-category-tag" style="color:var(--sold-out-red);">Karan Aujla Edition // Sold Out</span>
-            <h3 class="card-title">Karan Aujla Flag</h3>
-            <p class="card-spec-note">45" × 35" // "Four You" Metallic Artwork Edition</p>
-
-            <div class="card-price-row">
-              <span class="card-current-price">₹1,999</span>
-              <span class="card-mrp-price">₹3,499</span>
+          <div class="drop-info">
+            <h3 class="drop-title">Karan Aujla Flag</h3>
+            <p class="drop-edition-note">"Four You" Edition &bull; Metallic Print</p>
+            
+            <div class="drop-pricing-row">
+              <span class="price-current">₹1,999</span>
+              <span class="price-mrp">₹3,499</span>
             </div>
 
-            <div class="card-stock-status sold-out">
-              <span class="card-stock-dot"></span>
+            <div class="drop-stock-row sold-out">
+              <span class="stock-indicator-dot"></span>
               <span>Sold Out &bull; Next drop in progress</span>
             </div>
 
-            <button class="card-action-btn btn-sold-out">
-              <span>Sold Out — Notify Me</span>
-            </button>
+            <div class="card-actions-grid" onclick="event.stopPropagation()">
+              <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE!%20%F0%9F%91%8B%20Please%20notify%20me%20when%20the%20Karan%20Aujla%20Four%20You%20Flag%20restocks." target="_blank" rel="noopener" class="btn-card-buy sold-out">
+                <span>Notify on WhatsApp</span>
+              </a>
+              <button class="btn-card-details" onclick="openProductModal('karan')">Details</button>
+            </div>
           </div>
         </div>
 
@@ -1880,277 +1411,71 @@
   </section>
 
   <!-- ========================================================================
-       DYNAMIC PDP SECTION (INTERACTIVE SHOWCASE FOR SELECTED PRODUCT)
+       CRAFTSMANSHIP & DETAILS
        ======================================================================== -->
-  <section class="pdp-section" id="pdp">
+  <section class="craft-section" id="craftsmanship">
     <div class="container">
-      <div class="pdp-grid">
+      <div class="section-eyebrow">BUILT DIFFERENT</div>
+      <h2 class="section-heading">Engineered for Walls</h2>
 
-        <!-- Gallery Column -->
-        <div class="pdp-gallery-wrap">
-          <div class="pdp-main-image-box" id="pdpMainImageBox" onclick="openZoomModal()">
-            <img id="pdpMainImage" src="images/godsplan-room.png" alt="Featured Wall Flag" class="pdp-main-image">
-            <div class="pdp-zoom-badge">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-              <span>Click to Zoom</span>
-            </div>
-          </div>
-
-          <!-- Thumbnails Row -->
-          <div class="pdp-thumbnails-row" id="pdpThumbsRow">
-            <!-- Populated dynamically by JavaScript -->
-          </div>
+      <div class="craft-grid">
+        <div class="craft-card">
+          <div class="craft-num">01 / FINISH</div>
+          <h3 class="craft-title">High-Shine Sheen</h3>
+          <p class="craft-text">
+            Crafted from high-density lustrous fabric that reflects room and neon lighting with rich depth. Colors stay vivid without dulling.
+          </p>
         </div>
 
-        <!-- Details Column -->
-        <div class="pdp-details-wrap">
-          <div class="pdp-breadcrumb" id="pdpBreadcrumb">COLLECTION // FLAGS // DRAKE EDITION</div>
-          <h2 class="pdp-product-title" id="pdpTitle">God's Plan Flag</h2>
-          <div class="pdp-edition-subtitle" id="pdpSubtitle">Drake Edition — Chrome Drip Typography &bull; 45 × 35 Inches</div>
+        <div class="craft-card">
+          <div class="craft-num">02 / MOUNTING</div>
+          <h3 class="craft-title">Zero-Damage Loops</h3>
+          <p class="craft-text">
+            Reinforced corner loops sewn at the top corners allow instant hanging using hooks, pins, or string without piercing the fabric.
+          </p>
+        </div>
 
-          <!-- Price Row -->
-          <div class="pdp-price-box">
-            <div class="pdp-current-price" id="pdpCurrentPrice">₹2,099</div>
-            <div class="pdp-mrp-price" id="pdpMrpPrice">₹2,999</div>
-            <div class="pdp-save-badge" id="pdpSaveBadge">SAVE 30%</div>
-          </div>
-
-          <!-- Stock Indicator -->
-          <div class="pdp-stock-indicator" id="pdpStockBox">
-            <span class="pdp-stock-pulse"></span>
-            <span id="pdpStockText">⚡ Only 4 units left in stock — Dispatches within 24 hours</span>
-          </div>
-
-          <!-- Size Selector -->
-          <div class="pdp-selector-title">
-            <span>Dimensions &amp; Size</span>
-            <span style="color:var(--brand-orange); font-weight:700;">Standard Room Size</span>
-          </div>
-
-          <div class="pdp-size-pills-row">
-            <div class="pdp-size-pill">
-              <span>45 × 35 Inches (114 × 89 cm)</span>
-              <span>✔ In Stock</span>
-            </div>
-          </div>
-
-          <!-- Primary Order Action -->
-          <a id="pdpWhatsAppBtn" href="https://wa.me/918699168853" target="_blank" rel="noopener" class="pdp-buy-action-btn">
-            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.12c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.35c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.13-8.13 8.13zm4.46-6.08c-.24-.12-1.45-.71-1.67-.8-.23-.08-.39-.12-.56.12-.17.24-.65.8-.8 1-.15.19-.3.22-.55.1-.24-.12-1.03-.38-1.97-1.21-.73-.65-1.22-1.45-1.36-1.7-.15-.24-.02-.37.1-.49.11-.11.24-.28.37-.42.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.45.06-.68.32-.24.25-.9.88-.9 2.15s.92 2.5 1.05 2.67c.12.17 1.81 2.76 4.38 3.87.61.26 1.09.42 1.46.54.62.2 1.18.17 1.62.11.5-.08 1.45-.59 1.65-1.16.2-.58.2-1.07.15-1.16-.06-.11-.2-.18-.44-.3z"/></svg>
-            <span id="pdpActionBtnText">Order Via WhatsApp — ₹2,099</span>
-          </a>
-
-          <!-- Trust Bullets -->
-          <div class="pdp-trust-bullet-points">
-            <div class="trust-bullet">
-              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>Zero-Damage Corner Loops</span>
-            </div>
-            <div class="trust-bullet">
-              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>Free Express Delivery (India)</span>
-            </div>
-            <div class="trust-bullet">
-              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>High-Shine Gloss Finish</span>
-            </div>
-            <div class="trust-bullet">
-              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>Spot Clean / Hand Washable</span>
-            </div>
-          </div>
-
-          <!-- Accordion Tabs -->
-          <div class="pdp-accordion-group">
-            <!-- 1. Description -->
-            <div class="pdp-accordion-item open">
-              <button class="accordion-header" onclick="toggleAccordion(this)">
-                <span>Artwork &amp; Product Details</span>
-                <span class="accordion-icon">&#9660;</span>
-              </button>
-              <div class="accordion-content" id="pdpAccordionDesc">
-                Make a statement without saying a word. This flag brings together bold chrome drip typography and vivid color pop that stands out under any lighting. For music lovers, streetwear enthusiasts, and anyone who likes their room to reflect their true frequency.
-              </div>
-            </div>
-
-            <!-- 2. Specifications -->
-            <div class="pdp-accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">
-                <span>Full Specifications</span>
-                <span class="accordion-icon">&#9660;</span>
-              </button>
-              <div class="accordion-content">
-                <div class="spec-table-row">
-                  <span class="spec-label">Dimensions</span>
-                  <span>45 × 35 Inches (114 × 89 cm)</span>
-                </div>
-                <div class="spec-table-row">
-                  <span class="spec-label">Fabric Finish</span>
-                  <span>Premium High-Gloss Shiny Fabric (Lustrous Sheen)</span>
-                </div>
-                <div class="spec-table-row">
-                  <span class="spec-label">Hanging Mechanism</span>
-                  <span>Reinforced Corner Loops (Top Corners) — No Nails in Fabric</span>
-                </div>
-                <div class="spec-table-row">
-                  <span class="spec-label">Weight</span>
-                  <span>~180g (Lightweight, rolls smoothly without creasing)</span>
-                </div>
-                <div class="spec-table-row">
-                  <span class="spec-label">Ideal For</span>
-                  <span>Bedrooms, dorms, creative studios, gaming setups</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3. Care Instructions -->
-            <div class="pdp-accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">
-                <span>Care &amp; Hanging Guide</span>
-                <span class="accordion-icon">&#9660;</span>
-              </button>
-              <div class="accordion-content">
-                <p><strong>Hanging:</strong> Zero drama hanging. Simply use hooks, string, thumbtacks, or a curtain rod through the top reinforced corner loops. No nails piercing the artwork.</p>
-                <br>
-                <p><strong>Care:</strong> Spot clean or gently hand wash in cold water with mild detergent. Avoid harsh chemicals and bleaching agents to preserve the shiny glossy coating.</p>
-              </div>
-            </div>
-
-            <!-- 4. Returns & Warranty -->
-            <div class="pdp-accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">
-                <span>7-Day Return Policy</span>
-                <span class="accordion-icon">&#9660;</span>
-              </button>
-              <div class="accordion-content">
-                <p>We stand 100% behind the print quality and craftsmanship of our flags.</p>
-                <br>
-                <p><strong>Return Policy:</strong> To initiate a return or exchange, simply email us at <a href="mailto:cswallwave@gmail.com" style="color:var(--brand-orange); text-decoration:underline; font-weight:700;">cswallwave@gmail.com</a> with your order details. Our team will review and revert back to you within 24 hours.</p>
-              </div>
-            </div>
-          </div>
-
+        <div class="craft-card">
+          <div class="craft-num">03 / PACKAGING</div>
+          <h3 class="craft-title">Mailing Tube Protection</h3>
+          <p class="craft-text">
+            Every flag is carefully rolled and shipped in rigid protective tubes, arriving completely wrinkle-free and ready to hang.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ========================================================================
-       WHY BUILT DIFFERENT SECTION
-       ======================================================================== -->
-  <section class="comparison-section" id="comparison">
-    <div class="container">
-      <div class="catalog-header">
-        <span class="section-eyebrow">Engineered Quality</span>
-        <h2 class="section-title">Why WALLWAVE Flags Hit Different</h2>
-        <p class="section-desc">We solved every issue with cheap paper posters and washed-out fabric tapestries.</p>
-      </div>
-
-      <div class="comparison-grid">
-        <!-- Standard Posters -->
-        <div class="comp-card">
-          <h3 class="comp-title">Standard Posters</h3>
-          <p style="font-size:13px; color:var(--text-dim);">Paper &amp; Cardstock</p>
-          <ul class="comp-list">
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>Tears easily when mounting or moving</span>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>Requires expensive glass frames that glare</span>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>Dull matte finish fades under sunlight</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- WALLWAVE GLOSSY FLAGS (FEATURED) -->
-        <div class="comp-card featured">
-          <div class="comp-featured-badge">Our Standard</div>
-          <h3 class="comp-title" style="color:var(--brand-orange);">WALLWAVE Flags</h3>
-          <p style="font-size:13px; color:var(--text-muted);">Premium Glossy 45×35" Fabric</p>
-          <ul class="comp-list">
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#25d366"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <strong style="color:var(--text);">High-shine glossy sheen that reflects light richly</strong>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#25d366"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <strong style="color:var(--text);">Reinforced top corner loops — zero fabric punctures</strong>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#25d366"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <strong style="color:var(--text);">Durable, wrinkle-resistant &amp; hand-washable</strong>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#25d366"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <strong style="color:var(--text);">Dispatched in heavy-duty protective mailing tubes</strong>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Generic Tapestries -->
-        <div class="comp-card">
-          <h3 class="comp-title">Generic Tapestries</h3>
-          <p style="font-size:13px; color:var(--text-dim);">Cheap Polyester Bed-sheets</p>
-          <ul class="comp-list">
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>See-through, rough bedsheet-like texture</span>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>No loops: requires driving pushpins through art</span>
-            </li>
-            <li class="comp-item">
-              <svg viewBox="0 0 24 24" fill="#ff4d4d"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-              <span>Pixelated, blurry low-resolution prints</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================
-       LOOKBOOK / REAL ROOM INSPIRATION
+       LOOKBOOK (ATMOSPHERIC ROOM INSPIRATION)
        ======================================================================== -->
   <section class="lookbook-section" id="lookbook">
     <div class="container">
-      <div class="catalog-header">
-        <span class="section-eyebrow">Lookbook // Fall 2026</span>
-        <h2 class="section-title">In The Space</h2>
-        <p class="section-desc">See how WALLWAVE statement flags transform bedrooms, recording desks, and lounges.</p>
-      </div>
+      <div class="section-eyebrow">IN THE SPACE</div>
+      <h2 class="section-heading">Room Lookbook</h2>
 
       <div class="lookbook-grid">
-        <!-- Room 1 -->
-        <div class="lookbook-card" onclick="selectProduct('godsplan')">
-          <img src="images/godsplan-room.png" alt="God's Plan Flag in Bedroom" loading="lazy">
+        <div class="lookbook-card" onclick="openProductModal('godsplan')">
+          <img src="images/godsplan-room.png" alt="God's Plan Flag in Studio Setup" loading="lazy">
           <div class="lookbook-overlay">
-            <span class="lookbook-tag">Studio &bull; Ambient Night</span>
-            <h4 class="lookbook-name">God's Plan Flag</h4>
+            <span class="lookbook-tag">Studio Setup</span>
+            <h4 class="lookbook-title">God's Plan Flag</h4>
           </div>
         </div>
 
-        <!-- Room 2 -->
-        <div class="lookbook-card" onclick="selectProduct('takecare')">
-          <img src="images/takecare-room.png" alt="Take Care Flag in Lounge" loading="lazy">
+        <div class="lookbook-card" onclick="openProductModal('takecare')">
+          <img src="images/takecare-room.png" alt="Take Care Flag in Bedroom Setup" loading="lazy">
           <div class="lookbook-overlay">
-            <span class="lookbook-tag">Bedroom &bull; Vinyl Corner</span>
-            <h4 class="lookbook-name">Take Care Flag</h4>
+            <span class="lookbook-tag">Vinyl Bedroom Corner</span>
+            <h4 class="lookbook-title">Take Care Flag</h4>
           </div>
         </div>
 
-        <!-- Room 3 -->
-        <div class="lookbook-card" onclick="selectProduct('vodka')">
-          <img src="images/vodka-room.png" alt="Absolut Vodka Flag in Minimalist Bedroom" loading="lazy">
+        <div class="lookbook-card" onclick="openProductModal('vodka')">
+          <img src="images/vodka-room.png" alt="Absolut Vodka Flag in Minimal Setup" loading="lazy">
           <div class="lookbook-overlay">
-            <span class="lookbook-tag">Clean Minimal &bull; Headboard</span>
-            <h4 class="lookbook-name">Absolut Vodka Flag</h4>
+            <span class="lookbook-tag">Clean Minimal</span>
+            <h4 class="lookbook-title">Absolut Vodka Flag</h4>
           </div>
         </div>
       </div>
@@ -2158,157 +1483,146 @@
   </section>
 
   <!-- ========================================================================
-       FAQ & RETURN POLICY SECTION
+       RETURNS & SUPPORT
        ======================================================================== -->
-  <section class="faq-section" id="faq">
+  <section class="support-section" id="returns">
     <div class="container">
-      <div class="catalog-header">
-        <span class="section-eyebrow">Customer Care</span>
-        <h2 class="section-title">Frequently Asked Questions</h2>
-        <p class="section-desc">Everything you need to know about hanging, ordering, and returns.</p>
-      </div>
+      <div class="section-eyebrow">CARE &amp; POLICIES</div>
+      <h2 class="section-heading">Ordering &amp; Returns</h2>
 
-      <div class="faq-grid">
-        <!-- Q1: How to Hang -->
-        <div class="pdp-accordion-item open">
-          <button class="accordion-header" onclick="toggleAccordion(this)">
-            <span>How do I hang the flag without damaging my wall or the fabric?</span>
-            <span class="accordion-icon">&#9660;</span>
-          </button>
-          <div class="accordion-content">
-            Every WALLWAVE flag comes with reinforced loops sewn directly into the top corners. You can hang it with command hooks, adhesive wall tabs, small hooks, or string. You never have to drive pins or nails through the fabric.
-          </div>
+      <div class="support-grid">
+        <div class="support-card">
+          <div class="support-icon">🔄</div>
+          <h3 class="support-title">7-Day Return Policy</h3>
+          <p class="support-text">
+            Hassle-free returns on all drops. To initiate a return, simply mail us at <a href="mailto:cswallwave@gmail.com" class="support-link">cswallwave@gmail.com</a>. Our team will revert back to you within 24 hours.
+          </p>
         </div>
 
-        <!-- Q2: Ordering via WhatsApp -->
-        <div class="pdp-accordion-item">
-          <button class="accordion-header" onclick="toggleAccordion(this)">
-            <span>How does the WhatsApp order system work?</span>
-            <span class="accordion-icon">&#9660;</span>
-          </button>
-          <div class="accordion-content">
-            Clicking any order button launches a direct chat with our verified concierge at <strong>+91 8699168853</strong> with your selected flag pre-filled. You simply confirm your shipping address and choose your payment method (UPI, Card, NetBanking, or COD where applicable). Your tracking number is shared within 24 hours.
-          </div>
+        <div class="support-card">
+          <div class="support-icon">💬</div>
+          <h3 class="support-title">WhatsApp Concierge</h3>
+          <p class="support-text">
+            Direct personal service at <a href="https://wa.me/918699168853" target="_blank" rel="noopener" class="support-link">+91 8699168853</a>. Ask questions, confirm your delivery address, and track your package in real time.
+          </p>
         </div>
 
-        <!-- Q3: Return Policy -->
-        <div class="pdp-accordion-item">
-          <button class="accordion-header" onclick="toggleAccordion(this)">
-            <span>What is your return &amp; exchange policy?</span>
-            <span class="accordion-icon">&#9660;</span>
-          </button>
-          <div class="accordion-content">
-            We provide a 7-day return guarantee. To initiate a return, simply mail us at <a href="mailto:cswallwave@gmail.com" style="color:var(--brand-orange); text-decoration:underline; font-weight:700;">cswallwave@gmail.com</a> with your order number. Our team will review your request and revert back to you within 24 hours with return instructions.
-          </div>
-        </div>
-
-        <!-- Q4: Karan Aujla Restock -->
-        <div class="pdp-accordion-item">
-          <button class="accordion-header" onclick="toggleAccordion(this)">
-            <span>When will the Karan Aujla flag be restocked?</span>
-            <span class="accordion-icon">&#9660;</span>
-          </button>
-          <div class="accordion-content">
-            The Karan Aujla "Four You" Edition is currently sold out due to overwhelming demand. Our production run is currently in progress. You can tap "Sold Out — Notify Me" to join our priority WhatsApp notification list for the next drop.
-          </div>
+        <div class="support-card">
+          <div class="support-icon">🧼</div>
+          <h3 class="support-title">Fabric Maintenance</h3>
+          <p class="support-text">
+            Spot clean or gently hand wash in cold water with mild detergent. Avoid harsh bleaching agents to maintain the shiny glossy coating.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ========================================================================
-       SITE FOOTER
+       MINIMAL FOOTER
        ======================================================================== -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-top-grid">
-        <div>
-          <div class="brand-logo-wrap" style="margin-bottom:12px;">
-            <img src="images/logo.png" alt="WALLWAVE Logo" class="brand-logo-img">
-            <span>WALLWAVE</span>
-          </div>
-          <p class="footer-brand-text">
-            Your space. Your frequency. Curated premium glossy flags and street-inspired room centerpieces.
-          </p>
-          <p style="font-size:13px; color:var(--text-muted);">
-            Direct Concierge: <a href="tel:+918699168853" style="color:var(--text); font-weight:700;">+91 8699168853</a>
-          </p>
+      <div class="footer-flex">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="WALLWAVE" style="height:30px; width:auto;">
+          <span style="font-family:var(--font-display); font-weight:700; font-size:18px;">WALLWAVE</span>
         </div>
 
-        <div>
-          <h4 class="footer-heading">Collection</h4>
-          <ul class="footer-links-list">
-            <li><a href="#catalog" onclick="selectProduct('godsplan')">God's Plan Flag</a></li>
-            <li><a href="#catalog" onclick="selectProduct('takecare')">Take Care Flag</a></li>
-            <li><a href="#catalog" onclick="selectProduct('vodka')">Absolut Vodka Flag</a></li>
-            <li><a href="#catalog" onclick="selectProduct('karan')">Karan Aujla (Sold Out)</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="footer-heading">Support</h4>
-          <ul class="footer-links-list">
-            <li><a href="mailto:cswallwave@gmail.com">cswallwave@gmail.com</a></li>
-            <li><a href="https://wa.me/918699168853" target="_blank" rel="noopener">WhatsApp Support</a></li>
-            <li><a href="#faq">Hanging Guide</a></li>
-            <li><a href="#faq">7-Day Returns</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="footer-heading">Social</h4>
-          <ul class="footer-links-list">
-            <li><a href="https://instagram.com/wallwave.in" target="_blank" rel="noopener">Instagram: @wallwave.in</a></li>
-            <li><a href="https://wa.me/918699168853" target="_blank" rel="noopener">WhatsApp Channel</a></li>
-            <li><a href="mailto:cswallwave@gmail.com">Partner with Us</a></li>
-          </ul>
-        </div>
+        <ul class="footer-links">
+          <li><a href="#drops">Drops</a></li>
+          <li><a href="mailto:cswallwave@gmail.com">cswallwave@gmail.com</a></li>
+          <li><a href="https://wa.me/918699168853" target="_blank" rel="noopener">+91 8699168853</a></li>
+          <li><a href="https://instagram.com/wallwave.in" target="_blank" rel="noopener">@wallwave.in</a></li>
+        </ul>
       </div>
 
-      <div class="footer-bottom-bar">
-        <div>&copy; 2026 WALLWAVE. All rights reserved. Premium Glossy Wall Flags.</div>
-        <div>Mail queries &amp; returns: <a href="mailto:cswallwave@gmail.com" style="color:var(--text); font-weight:600;">cswallwave@gmail.com</a></div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 WALLWAVE. All rights reserved.</div>
+        <div>Support: cswallwave@gmail.com</div>
       </div>
     </div>
   </footer>
 
   <!-- ========================================================================
-       FLOATING WHATSAPP BUTTON
+       PRODUCT QUICK VIEW MODAL (FOCUSED, ZERO CLUTTER)
        ======================================================================== -->
-  <a href="https://wa.me/918699168853?text=Hey%20WALLWAVE!%20%F0%9F%91%8B%20I'd%20like%20to%20order%20from%20the%20Flags%20Collection." target="_blank" rel="noopener" class="floating-wa-pill" aria-label="Chat with WALLWAVE on WhatsApp">
-    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.12c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.35c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.13-8.13 8.13zm4.46-6.08c-.24-.12-1.45-.71-1.67-.8-.23-.08-.39-.12-.56.12-.17.24-.65.8-.8 1-.15.19-.3.22-.55.1-.24-.12-1.03-.38-1.97-1.21-.73-.65-1.22-1.45-1.36-1.7-.15-.24-.02-.37.1-.49.11-.11.24-.28.37-.42.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.45.06-.68.32-.24.25-.9.88-.9 2.15s.92 2.5 1.05 2.67c.12.17 1.81 2.76 4.38 3.87.61.26 1.09.42 1.46.54.62.2 1.18.17 1.62.11.5-.08 1.45-.59 1.65-1.16.2-.58.2-1.07.15-1.16-.06-.11-.2-.18-.44-.3z"/></svg>
-    <span>Order on WhatsApp</span>
-  </a>
+  <div class="quick-modal-overlay" id="quickModal" onclick="closeProductModal()">
+    <div class="quick-modal-card" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeProductModal()">&times;</button>
 
-  <!-- ========================================================================
-       IMAGE ZOOM MODAL
-       ======================================================================== -->
-  <div class="image-zoom-modal" id="zoomModal" onclick="closeZoomModal()">
-    <div class="modal-close-btn">&times;</div>
-    <div class="modal-img-wrap" onclick="event.stopPropagation()">
-      <img id="zoomModalImg" src="images/godsplan-room.png" alt="High Resolution Flag Preview">
+      <!-- Left Column: Image Gallery -->
+      <div class="modal-gallery-col">
+        <div class="modal-main-img-box">
+          <img id="modalMainImg" src="images/godsplan-room.png" alt="Flag Preview">
+        </div>
+        <div class="modal-thumb-row" id="modalThumbRow">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Right Column: Details & WhatsApp Action -->
+      <div class="modal-info-col">
+        <span class="modal-tag" id="modalTag">DROP 01 // EXCLUSIVE</span>
+        <h3 class="modal-title" id="modalTitle">God's Plan Flag</h3>
+        <p class="modal-edition" id="modalSubtitle">Drake Edition &bull; Chrome Drip Typography</p>
+
+        <div class="modal-price-row">
+          <span class="modal-price-current" id="modalPriceCurrent">₹2,099</span>
+          <span class="modal-price-mrp" id="modalPriceMrp">₹2,999</span>
+        </div>
+
+        <div class="modal-stock-badge" id="modalStockBadge">
+          <span>⚡ Only 4 left in stock</span>
+        </div>
+
+        <p class="modal-desc" id="modalDesc">
+          Make a statement without saying a word. Bold chrome drip typography printed with vivid contrast on premium glossy fabric.
+        </p>
+
+        <div class="modal-specs-list">
+          <div class="modal-spec-row">
+            <span class="modal-spec-label">Size</span>
+            <span class="modal-spec-val">45 × 35 Inches (114 × 89 cm)</span>
+          </div>
+          <div class="modal-spec-row">
+            <span class="modal-spec-label">Material</span>
+            <span class="modal-spec-val">Lustrous Glossy Fabric</span>
+          </div>
+          <div class="modal-spec-row">
+            <span class="modal-spec-label">Mounting</span>
+            <span class="modal-spec-val">Reinforced Top Corner Loops</span>
+          </div>
+          <div class="modal-spec-row">
+            <span class="modal-spec-label">Dispatch</span>
+            <span class="modal-spec-val">Within 24 Hours in Mailing Tube</span>
+          </div>
+        </div>
+
+        <a id="modalBuyBtn" href="https://wa.me/918699168853" target="_blank" rel="noopener" class="modal-buy-btn">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.12c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.35c0-4.48 3.65-8.13 8.13-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.13-8.13 8.13zm4.46-6.08c-.24-.12-1.45-.71-1.67-.8-.23-.08-.39-.12-.56.12-.17.24-.65.8-.8 1-.15.19-.3.22-.55.1-.24-.12-1.03-.38-1.97-1.21-.73-.65-1.22-1.45-1.36-1.7-.15-.24-.02-.37.1-.49.11-.11.24-.28.37-.42.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.45.06-.68.32-.24.25-.9.88-.9 2.15s.92 2.5 1.05 2.67c.12.17 1.81 2.76 4.38 3.87.61.26 1.09.42 1.46.54.62.2 1.18.17 1.62.11.5-.08 1.45-.59 1.65-1.16.2-.58.2-1.07.15-1.16-.06-.11-.2-.18-.44-.3z"/></svg>
+          <span id="modalBuyBtnText">Order Via WhatsApp — ₹2,099</span>
+        </a>
+      </div>
     </div>
   </div>
 
   <!-- ========================================================================
-       JAVASCRIPT: DUAL THEME, PDP CONTROLLER & WHATSAPP GENERATOR
+       JAVASCRIPT: THEME & MODAL LOGIC
        ======================================================================== -->
   <script>
-    // Product Database (The 4 Specified Products)
     const PRODUCTS = {
       godsplan: {
-        id: 'godsplan',
         title: "God's Plan Flag",
-        subtitle: "Drake Edition — Chrome Drip Typography // 45 × 35 Inches",
-        breadcrumb: "COLLECTION // FLAGS // DRAKE EDITION",
+        tag: "DROP 01 // EXCLUSIVE",
+        subtitle: "Drake Edition &bull; Chrome Drip Typography",
         price: "₹2,099",
         mrp: "₹2,999",
-        saveBadge: "SAVE 30%",
-        stockText: "⚡ Only 4 units left in stock — Dispatches within 24 hours",
+        stockText: "⚡ Only 4 left in stock — Dispatches within 24h",
         isSoldOut: false,
+        desc: "Make a statement without saying a word. GOD'S PLAN flag brings together bold chrome drip typography and vivid color pop that stands out under any lighting. For music lovers, streetwear enthusiasts, and anyone who likes their room to reflect their true frequency.",
         btnText: "Order Via WhatsApp — ₹2,099",
-        waMessage: "Hey WALLWAVE team! 👋 I would like to order the God's Plan Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping details. My delivery address: ",
-        description: "Make a statement without saying a word. GOD'S PLAN flag brings together bold chrome drip typography and vivid color pop that stands out under any lighting. For music lovers, streetwear enthusiasts, and anyone who likes their room to reflect their true frequency.",
+        waMsg: "Hey WALLWAVE team! 👋 I would like to order the God's Plan Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping. My delivery address: ",
         images: [
           "images/godsplan-room.png",
           "images/godsplan-flat.png",
@@ -2317,18 +1631,16 @@
         ]
       },
       takecare: {
-        id: 'takecare',
         title: "Take Care Flag",
-        subtitle: "Drake Edition — Vintage Album Cover Artwork // 45 × 35 Inches",
-        breadcrumb: "COLLECTION // FLAGS // DRAKE VINTAGE",
+        tag: "VINTAGE CLASSIC",
+        subtitle: "Drake Edition &bull; Candlelight & Owl Art",
         price: "₹2,099",
         mrp: "₹2,999",
-        saveBadge: "SAVE 30%",
-        stockText: "⚡ Only 3 units left in stock — Dispatches within 24 hours",
+        stockText: "⚡ Only 3 left in stock — Dispatches within 24h",
         isSoldOut: false,
+        desc: "Make a statement without saying a word. TAKE CARE flag brings together Drake's iconic album cover art in museum-grade clarity across a 45x35" spread. Golden candlelight tones, classic owl insignia, and deep contrast engineered for bedrooms, gaming setups, and studios.",
         btnText: "Order Via WhatsApp — ₹2,099",
-        waMessage: "Hey WALLWAVE team! 👋 I would like to order the Take Care Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping details. My delivery address: ",
-        description: "Make a statement without saying a word. TAKE CARE flag brings together Drake's iconic album cover art in museum-grade clarity across a 45x35" spread. Golden candlelight tones, classic owl insignia, and deep contrast engineered for bedrooms, gaming setups, and studios.",
+        waMsg: "Hey WALLWAVE team! 👋 I would like to order the Take Care Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping. My delivery address: ",
         images: [
           "images/takecare-room.png",
           "images/takecare-flat.jpg",
@@ -2336,18 +1648,16 @@
         ]
       },
       vodka: {
-        id: 'vodka',
         title: "Absolut Vodka Flag",
-        subtitle: "Original Vodka Edition — Crisp Contrast & Lacquered Sheen // 45 × 35 Inches",
-        breadcrumb: "COLLECTION // FLAGS // STREETWEAR MINIMAL",
+        tag: "MINIMALIST ICON",
+        subtitle: "Original Vodka Edition &bull; High-Shine Sheen",
         price: "₹2,099",
         mrp: "₹2,999",
-        saveBadge: "SAVE 30%",
-        stockText: "⚡ Only 5 units left in stock — Dispatches within 24 hours",
+        stockText: "⚡ Only 5 left in stock — Dispatches within 24h",
         isSoldOut: false,
+        desc: "Crisp whites, deep contrast, and that unmistakable silhouette rendered in full detail across a 45x35" spread. Not a poster. A centerpiece. The glossy finish gives it a high-shine, almost lacquered look that holds up under any light.",
         btnText: "Order Via WhatsApp — ₹2,099",
-        waMessage: "Hey WALLWAVE team! 👋 I would like to order the Absolut Vodka Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping details. My delivery address: ",
-        description: "ABSOLUT VODKA TAPESTRY. Premium glossy print engineered to hit different — crisp whites, deep contrast, and that unmistakable silhouette rendered in full detail across a 45x35" spread. Not a poster. A centerpiece. The glossy finish gives it a high-shine, almost lacquered look that holds up under any light.",
+        waMsg: "Hey WALLWAVE team! 👋 I would like to order the Absolut Vodka Flag (45x35 inches) for ₹2,099. Please confirm availability and shipping. My delivery address: ",
         images: [
           "images/vodka-room.png",
           "images/vodka-flat.png",
@@ -2357,18 +1667,16 @@
         ]
       },
       karan: {
-        id: 'karan',
         title: "Karan Aujla Flag",
-        subtitle: "Karan Aujla Edition — "Four You" Metallic Gold Print // 45 × 35 Inches",
-        breadcrumb: "COLLECTION // FLAGS // ARCHIVED DROP",
+        tag: "ARCHIVED DROP",
+        subtitle: "Karan Aujla Edition &bull; Metallic Gold Print",
         price: "₹1,999",
         mrp: "₹3,499",
-        saveBadge: "SOLD OUT",
-        stockText: "🔴 Currently Sold Out — Next drop production in progress",
+        stockText: "🔴 Currently Sold Out — Next drop in progress",
         isSoldOut: true,
-        btnText: "Sold Out — Join WhatsApp Waitlist",
-        waMessage: "Hey WALLWAVE team! 👋 I'm interested in the Karan Aujla Four You Tapestry which is currently sold out. Please add me to the priority restock waitlist for the next drop!",
-        description: "Premium Shiny Wall Tapestry – Karan Aujla Edition. Add a bold, statement-making piece to your space with this premium glossy-finish wall tapestry featuring the Karan Aujla 'Four You' design. Crafted from smooth, shine-finish fabric with vivid color reproduction. (Currently sold out; join our priority restock list on WhatsApp).",
+        desc: "Premium Shiny Wall Tapestry – Karan Aujla Edition. Add a bold, statement-making piece to your space with this premium glossy-finish wall tapestry featuring the Karan Aujla 'Four You' design. (Currently sold out; join our priority restock list on WhatsApp).",
+        btnText: "Sold Out — Join Restock Waitlist",
+        waMsg: "Hey WALLWAVE team! 👋 Please notify me when the Karan Aujla Four You Flag restocks for the next drop.",
         images: [
           "images/tapestry-product.jpg",
           "images/tapestry-room.jpg",
@@ -2379,128 +1687,73 @@
       }
     };
 
-    let activeProductKey = 'godsplan';
-    let currentMainImgIndex = 0;
-
-    // Switch Selected Product in PDP
-    function selectProduct(key) {
-      if (!PRODUCTS[key]) return;
-      activeProductKey = key;
-      currentMainImgIndex = 0;
+    function openProductModal(key) {
       const p = PRODUCTS[key];
+      if (!p) return;
 
-      // Update PDP UI
-      document.getElementById('pdpBreadcrumb').textContent = p.breadcrumb;
-      document.getElementById('pdpTitle').textContent = p.title;
-      document.getElementById('pdpSubtitle').textContent = p.subtitle;
-      document.getElementById('pdpCurrentPrice').textContent = p.price;
-      document.getElementById('pdpMrpPrice').textContent = p.mrp;
-      document.getElementById('pdpSaveBadge').textContent = p.saveBadge;
-      document.getElementById('pdpAccordionDesc').textContent = p.description;
+      document.getElementById('modalTitle').textContent = p.title;
+      document.getElementById('modalTag').textContent = p.tag;
+      document.getElementById('modalSubtitle').innerHTML = p.subtitle;
+      document.getElementById('modalPriceCurrent').textContent = p.price;
+      document.getElementById('modalPriceMrp').textContent = p.mrp;
+      document.getElementById('modalDesc').textContent = p.desc;
 
-      // Stock indicator
-      const stockBox = document.getElementById('pdpStockBox');
-      const stockText = document.getElementById('pdpStockText');
-      stockText.textContent = p.stockText;
+      const stockBadge = document.getElementById('modalStockBadge');
+      stockBadge.textContent = p.stockText;
       if (p.isSoldOut) {
-        stockBox.classList.add('sold-out');
+        stockBadge.classList.add('sold-out');
       } else {
-        stockBox.classList.remove('sold-out');
+        stockBadge.classList.remove('sold-out');
       }
 
-      // WhatsApp Button
-      const waBtn = document.getElementById('pdpWhatsAppBtn');
-      const actionText = document.getElementById('pdpActionBtnText');
-      actionText.textContent = p.btnText;
-      waBtn.href = "https://wa.me/918699168853?text=" + encodeURIComponent(p.waMessage);
+      const buyBtn = document.getElementById('modalBuyBtn');
+      const buyBtnText = document.getElementById('modalBuyBtnText');
+      buyBtnText.textContent = p.btnText;
+      buyBtn.href = "https://wa.me/918699168853?text=" + encodeURIComponent(p.waMsg);
       if (p.isSoldOut) {
-        waBtn.classList.add('btn-sold-out');
+        buyBtn.classList.add('sold-out');
       } else {
-        waBtn.classList.remove('btn-sold-out');
+        buyBtn.classList.remove('sold-out');
       }
 
-      // Update Main Image & Thumbnails
-      updateMainImage(p.images[0]);
-      renderThumbnails(p.images);
+      // Main image & thumbs
+      const mainImg = document.getElementById('modalMainImg');
+      mainImg.src = p.images[0];
 
-      // Smooth scroll to PDP
-      document.getElementById('pdp').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    function updateMainImage(src) {
-      const img = document.getElementById('pdpMainImage');
-      img.style.opacity = '0';
-      setTimeout(() => {
-        img.src = src;
-        img.style.opacity = '1';
-        document.getElementById('zoomModalImg').src = src;
-      }, 150);
-    }
-
-    function renderThumbnails(images) {
-      const row = document.getElementById('pdpThumbsRow');
-      row.innerHTML = '';
-      images.forEach((src, idx) => {
+      const thumbRow = document.getElementById('modalThumbRow');
+      thumbRow.innerHTML = '';
+      p.images.forEach((src, idx) => {
         const thumb = document.createElement('div');
-        thumb.className = 'pdp-thumb' + (idx === currentMainImgIndex ? ' active' : '');
-        thumb.innerHTML = `<img src="${src}" alt="Thumbnail ${idx+1}">`;
+        thumb.className = 'modal-thumb' + (idx === 0 ? ' active' : '');
+        thumb.innerHTML = `<img src="${src}" alt="Thumb">`;
         thumb.onclick = () => {
-          currentMainImgIndex = idx;
-          updateMainImage(src);
-          document.querySelectorAll('.pdp-thumb').forEach((t, i) => {
-            t.classList.toggle('active', i === idx);
-          });
+          mainImg.style.opacity = '0';
+          setTimeout(() => {
+            mainImg.src = src;
+            mainImg.style.opacity = '1';
+          }, 120);
+          document.querySelectorAll('.modal-thumb').forEach((t, i) => t.classList.toggle('active', i === idx));
         };
-        row.appendChild(thumb);
+        thumbRow.appendChild(thumb);
       });
+
+      document.getElementById('quickModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
     }
 
-    // Accordions
-    function toggleAccordion(button) {
-      const item = button.closest('.pdp-accordion-item');
-      item.classList.toggle('open');
-    }
-
-    // Zoom Modal
-    function openZoomModal() {
-      const modal = document.getElementById('zoomModal');
-      modal.classList.add('active');
-    }
-
-    function closeZoomModal() {
-      const modal = document.getElementById('zoomModal');
-      modal.classList.remove('active');
+    function closeProductModal() {
+      document.getElementById('quickModal').classList.remove('active');
+      document.body.style.overflow = '';
     }
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeZoomModal();
-    });
-
-    // Filter Tabs
-    const filterTabs = document.querySelectorAll('.filter-tab');
-    const catalogCards = document.querySelectorAll('.product-card');
-
-    filterTabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        filterTabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        const filter = tab.getAttribute('data-filter');
-
-        catalogCards.forEach(card => {
-          const cat = card.getAttribute('data-category');
-          if (filter === 'all' || cat === filter) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
+      if (e.key === 'Escape') closeProductModal();
     });
 
     // Theme Switcher (Dark & Light)
-    const themeToggleBtn = document.getElementById('themeToggleBtn');
-    const sunIcon = document.getElementById('themeIconSun');
-    const moonIcon = document.getElementById('themeIconMoon');
+    const themeBtn = document.getElementById('themeBtn');
+    const sunIcon = document.getElementById('iconSun');
+    const moonIcon = document.getElementById('iconMoon');
 
     function applyTheme(theme) {
       document.documentElement.setAttribute('data-theme', theme);
@@ -2514,7 +1767,6 @@
       }
     }
 
-    // Initialize Theme
     const savedTheme = localStorage.getItem('wallwave-theme');
     if (savedTheme) {
       applyTheme(savedTheme);
@@ -2523,21 +1775,15 @@
       applyTheme(prefersDark ? 'dark' : 'light');
     }
 
-    themeToggleBtn.addEventListener('click', () => {
+    themeBtn.addEventListener('click', () => {
       const current = document.documentElement.getAttribute('data-theme') || 'dark';
       applyTheme(current === 'dark' ? 'light' : 'dark');
     });
 
-    // Listen for system theme changes if user has not manually overridden
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
       if (!localStorage.getItem('wallwave-theme')) {
         applyTheme(e.matches ? 'dark' : 'light');
       }
-    });
-
-    // Initialize PDP with God's Plan on load
-    document.addEventListener('DOMContentLoaded', () => {
-      selectProduct('godsplan');
     });
   </script>
 </body>
